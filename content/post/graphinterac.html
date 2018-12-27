@@ -1,0 +1,199 @@
+---
+author: "Sergio Ewane Ebouele"
+archives: "2018"
+linktitle: GRAPHES INTERACTIFS AVEC R
+next: /tutorials/github-pages-blog
+prev: /tutorials/automated-deployments
+title: 'Construire un graphe interactif avec R'
+date: "2018-12-26 17:27:31"
+weight: 10
+categories:
+  - Statistics
+tags:
+  - graphinterac
+  - null_models_avec_r
+showonlyimage : false
+draft : false
+image : "img/portfolio/graphe.PNG"
+---
+
+<script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/rmarkdown-libs/d3/d3.min.js"></script>
+<script src="/rmarkdown-libs/forceNetwork-binding/forceNetwork.js"></script>
+
+
+<div id="les-packages-r-utilises-dans-le-tutoriel" class="section level1">
+<h1>LES PACKAGES R UTILISÉS DANS LE TUTORIEL</h1>
+<pre class="r"><code>library(dplyr)     # POUR MANIPULER LES JEUX DE DONNÉES
+library(vegan)     # POUR FAIRE LES NULL MODELS
+library(parallel)  # POUR LES CALCULS EN PARALÈLES
+library(igraph)    # POUR CONSTRUIRE LES RESEAUX NON INTERACTIFS
+library(rgl)       # POUR LES REPRÉSENTATIONS EN 3D
+library(networkD3) # POUR CONSTRUIRE LES RESEAUX INTERACTIFS</code></pre>
+</div>
+<div id="introduction" class="section level1">
+<h1>INTRODUCTION</h1>
+<p>La représentation graphique des données reste un moyen important pour l’exploration de l’information contenue dans les jeux de données. Ce tutoriel montre comment procéder pour construire un graphe interactif avec <code>R</code>.</p>
+</div>
+<div id="definition-de-graphes" class="section level1">
+<h1>DÉFINITION DE GRAPHES</h1>
+<p>D’après l’encyclopédie en ligne Wikipédia, La théorie des graphes est la discipline mathématique et informatique qui étudie les graphes.<br />
+Un graphe est un modèle abstrait de dessins de réseaux reliant des objets. Ce modèle est constitué par la donnée de points, appelés <code>nœuds</code> ou sommets (en référence aux polyèdres), et de <code>liens</code> entre ces points. ces liens sont souvent symétriques (les graphes sont alors dits non orientés) et sont appelés des arêtes. L’image ci-dessous illutre la définition d’un graphe non orienté.<br />
+<img src="/post/graphinterac_files/graphill.png" alt="Exemple de graphe non orienté" /></p>
+<p>Ce tutoriel ne revient pas sur la théorie des graphes. Il illustre simplement la construction des graphes non orientés et interactif avec <code>R</code>.</p>
+</div>
+<div id="exemple-pratique-representation-des-liens-entre-les-etudiants" class="section level1">
+<h1>EXEMPLE PRATIQUE : REPRÉSENTATION DES LIENS ENTRE LES ÉTUDIANTS</h1>
+<p>Les données de ce papier sont fictives. Il s’agit d’un ensemble de <code>23</code> étudiants d’une salle de classe qui participent aux activités parascolaires chaque fin de semaines. Sur la base de leur participation aux activités, le papier représente graphiquement les liens significatifs (et leur sens) qui existent entre les étudiants.</p>
+<div id="la-matrice-de-presence-absence-mpa-aux-activites-parascolaires" class="section level2">
+<h2>La matrice de présence-absence (Mpa) aux activités parascolaires</h2>
+<p>Les lignes de la Mpa représentent les étudiants et les colonnes représentent les activités. Une cellule <code>(i,j)</code> est évaluée à <code>1</code> si l’étudiant <code>i</code> participe à l’activité <code>j</code>. Elle est évaluée à <code>0</code> si l’étudiant <code>i</code> ne participe pas à l’activité <code>j</code>.<br />
+Pour cet exemple, les étudiants fréquentent plus les <code>restaurants</code> pendant leur fin de semaine et participent plus aux parties de <code>soccer</code> ou de <code>cinéma</code>. Ils se rendent très peu à la <code>ferme</code> et à la <code>bibliothèque</code> pendant le week-end.<br />
+<code>Maxi</code> et la <code>LaHossou</code> sont les deux étudiants qui participent le plus aux activités en fin de semaine. Le premier est absent des activités réligieuses et le second ne se rend pas dans les clubs de dance. Par contre, <code>LeDidier</code> et <code>LeCherif</code> sont des étudiants très casaniers. Le premier se rend uniquement dans des club de dance et le second participe aux activités religieuses et se rend au restaurant.<br />
+Face à cette description, est ce vrai de croire que <code>Maxi</code> et <code>LaHossou</code> ont un lien de similarité particulier ? ou encore, existe t-il un lien de dissimilarité entre <code>Maxi</code> et <code>LeCherif</code> ou entre <code>LaHossou</code> et <code>LeDidier</code>?<br />
+La suite du tutoriel essaye de répondre à toutes ces interrogations.</p>
+<pre><code>##    Etudiants group Cine Soccer Biblio Club Religion Ferme Resto
+## 1   Bertholo  grp4    1      0      1    0        1     0     1
+## 2      Vanou  grp4    1      0      1    0        1     0     1
+## 3  Carmelito  grp4    1      1      1    1        0     0     0
+## 4    LeMaham  grp2    0      1      0    0        1     0     1
+## 5      Serge  grp2    1      1      0    0        0     1     1
+## 6      Reine  grp4    0      0      1    0        1     1     1
+## 7      Nelly  grp4    0      0      1    0        1     1     0
+## 8      Astro  grp4    1      0      1    1        0     0     1
+## 9       Maxi  grp4    1      1      1    0        0     1     1
+## 10  Sorelite  grp1    0      1      0    1        0     1     0
+## 11    ThePig  grp1    0      1      0    1        0     0     1
+## 12  LaHossou  grp1    1      1      1    0        1     0     1
+## 13   Florent  grp4    1      1      0    0        0     0     1
+## 14  HighTech  grp1    0      1      0    1        1     0     1
+## 15     Borio  grp2    1      1      0    1        0     0     0
+## 16  LeDidier  grp4    0      0      0    1        0     0     0
+## 17      Abib  grp1    1      0      0    0        1     0     1
+## 18   Cedrico  grp2    1      1      0    1        0     0     1
+## 19      Roma  grp1    1      1      0    1        0     1     0
+## 20     Afann  grp4    1      0      1    0        0     1     0
+## 21  LeCherif  grp2    0      0      0    0        1     0     1
+## 22     LeCyp  grp1    1      0      1    1        1     0     0
+## 23  TheTouks  grp2    1      1      0    1        0     0     1</code></pre>
+</div>
+<div id="la-structure-de-regroupement-des-etudiants" class="section level2">
+<h2>La structure de regroupement des étudiants</h2>
+<p>Les figures ci-dessous montrent qu’il existe une structure de cooccurrence negative entre les étudiants. La présentation du concept des <code>null models</code> est faite dans un autre <a href="lien">tutoriel</a>.<br />
+L’idée des <code>null models</code> est de comparer le hasard à ce qui est observée. Si le jeu de données observé ressemble aux jeux de données obtenus dans une situation de hasard alors on dira qu’il n’existe aucune structure de regroupement dans la communauté. Sinon, il existe une structure particulière qu’il faut analyser. Cette notion est très utilisée en biologie, plus particulièrement en écologie.<br />
+Pour faire le parallèle avec notre exemple, les étudiants sont similaires aux espèces et les activités sont similaires aux sites.</p>
+<pre><code>##         Indice_temperature Indice_N0 Indice_NODF Indice_Cscore
+## p.value              0.192     0.952       0.852         0.052</code></pre>
+<p><img src="/post/graphinterac_files/figure-html/unnamed-chunk-3-1.png" width="1248" /></p>
+</div>
+<div id="la-matrice-de-liens-significatifs-entre-les-etudiants" class="section level2">
+<h2>La matrice de liens significatifs entre les étudiants</h2>
+<p>Pour analyser la structure de cooccurrence détectée ci-dessus, le tutoriel mesure le lien entre les étudiants. On peut utiliser plusieurs métrique pour quantifier la distance entre deux étudiants. Dans ce contexte particulier, l’indice de simmilarité de <code>Sorensen</code> est la plus courante. Cette diatance mesure la similarité ou la dissimilarité entre deux entités de la <code>Mpa</code>. Un lien est significatif lorsqu’il est très différent des liens déterminé par le hasard. Le tableau ci dessous présente la matrice de lien entre les étudiants, leur niveau de significativité et leur type (similarité ou dissimilarité).<br />
+La variable <code>Cooc</code> mesure le niveau de cooccurrence entre les espèces. En fait, il représente le nombre de fois où deux étudiants se sont retrouvé dans la même activité. Si sa valeur est plus faible que la moyenne alors les etudiants sont dissimilaires, sinon ils sont similaires. Pour représenter un reseau important, le seuil de significativité d’un lien a été fixé à <code>alpha=21%</code>. Pour des études réelles, il est conseillé de choisir l’un des seuils suivants : <code>10%</code> , <code>5%</code> ou <code>1%</code>.</p>
+<pre><code>## NULL</code></pre>
+<pre><code>##        from       to       Sor cooc p.val.cooc meanSimCooc     sens.cooc
+## 1  Bertholo    Vanou 1.0000000    4      0.074       2.310    Similarite
+## 9  Bertholo Sorelite 0.0000000    0      0.038       1.759 Dissimilarite
+## 18 Bertholo     Roma 0.2500000    1      0.206       2.329 Dissimilarite
+## 30    Vanou Sorelite 0.0000000    0      0.058       1.730 Dissimilarite
+## 37    Vanou     Abib 0.8571429    3      0.210       1.738    Similarite</code></pre>
+</div>
+<div id="representations-graphiques" class="section level2">
+<h2>Représentations graphiques</h2>
+<div id="representation-du-graphe-non-interactif" class="section level3">
+<h3>Représentation du graphe non interactif</h3>
+<p>Cette représentation ne permet pas d’interagir avec le graphique. Il est possible de pondérer les liens du réseau par un poids mais il reste difficile d’y ajouter des couleurs relativement à un facteur. Pour plus de précision sur ce type de représentation, le lecteur peut consulter la page suivante : <a href="https://www.rdocumentation.org/packages/igraph/versions/1.2.2/topics/plot.igraph">igraph</a></p>
+<pre class="r"><code>###########################################
+# CODE R POUR CONSTRUIRE LES RESEAUX NONS #
+# INTERACTIFS                             #
+###########################################
+
+# Définir les couleurs du graphe
+color1&lt;-&quot;darkseagreen2&quot; ; color2&lt;-&quot;lightblue1&quot; ; color3&lt;-&quot;black&quot;
+
+# Jeu de données pour représenter le graphe
+bdgraph&lt;-Test.cooc[,c(&quot;from&quot;,&quot;to&quot;,&quot;Sor&quot;)]
+g=graph.data.frame(bdgraph[,-3], directed=FALSE)
+graph_layout=layout.fruchterman.reingold(g)
+
+# Représentation du graphe
+plot.igraph(g, 
+     layout=graph_layout, 
+     edge.width=(exp(bdgraph$Sor)), 
+     vertex.label.cex=0.9,
+     vertex.color=color1,
+     vertex.frame.color=color2,
+     vertex.size=18,
+     edge.color=color3
+)</code></pre>
+<p><img src="/post/graphinterac_files/figure-html/unnamed-chunk-5-1.png" width="1248" /></p>
+</div>
+<div id="representation-du-graphe-interactif" class="section level3">
+<h3>Représentation du graphe interactif</h3>
+<p>Contrairement au graphe ci-dessus, la représentation des réseaux à l’aide de la fonction <a href="https://www.rdocumentation.org/packages/networkD3/versions/0.4">forceNetwork()</a> du package <a href="https://www.rdocumentation.org/packages/networkD3">networkD3</a> est interactive. Le résultats de cette fonction permet de mettre en surbrillance les liens d’un sommet particulier.</p>
+<p>Pour arriver à un tel résultat, la fonction prend en entré plusieurs arguments. Les plus importants sont :</p>
+<ul>
+<li><p>Le data frame <code>MyNodes</code>: décrit les noeuds du réseau. On y retrouve les noms des noeuds, leur groupe d’appartenance et leur taille. Les deux dernière variables sont facultatives. Seule la première variable est obligatoire et doit être de type <code>factor</code>.</p></li>
+<li><p>Le data frame <code>MyLinks</code>: décrit les liens du réseau. Il a deux variables obligatoires et plusieurs autres facultatives. Chaque ligne de ce jeu de données représente un lien du réseau. Un lien est caractérisé par l’origine (<code>from</code>) et la destination (<code>to</code>), le poids du lien (<code>Cooc</code>, caractéristique facultative), le groupe d’appartenance du lien (<code>typeLink</code>, une variable de type factor) etc. NB: les variables <code>from</code> et <code>to</code> doivent être les numéros des facteurs définis dans le data frame <code>MyNodes</code>. Pour représenter le réseau, la fonction utilise un code JavaScript. Pour cette raison, les variables d’origine-destination du réseau sont indexés à <code>0</code> (les numéros des facteurs doivent commencer à <code>0</code>).</p></li>
+</ul>
+<p>Ci-dessous, vous verrez le code et l’en-tête des data frame utilisés pour construire le reseau des étudiants basé sur leur fréquentation commune de certaines activités extra scolaire.</p>
+<pre class="r"><code>######################################################
+# CODE R POUR CONSTRUIRE UN RESEAU INTERACTIF AVEC R #
+######################################################
+
+# Les noeuds du graphe
+vertx&lt;-as.factor(vertex.attributes(g)$name) 
+nnod&lt;-length(vertx)
+netw3d.from&lt;-as.character(Test.cooc$from)  
+netw3d.to&lt;-as.character(Test.cooc$to)
+
+# Création du jeu de données de description des noeud
+# Nom des noeuds
+MyNodes&lt;-data.frame( species=levels(vertx) )  ;  group&lt;-c()
+# Groupe des noeuds
+for (i in 1:nnod) {
+  nom.e&lt;-as.character(etudiants$Etudiants)
+  grp.e&lt;-etudiants[nom.e==as.character(MyNodes[i,]),2]
+  grp&lt;-as.character(grp.e)
+  group&lt;-c(group,grp)
+}
+# resultat
+MyNodes&lt;-data.frame( student=levels(vertx) , 
+                     group=factor(group) , 
+                     size=rep(5,nnod))
+
+# Jeu de données qui spécifie les liens entre les étudiants 
+# ( On fait -1 pour indexer à 0)
+# (+1 pour eviter des liens nuls)
+MyLinks&lt;-data.frame(from=as.double(factor(netw3d.from,levels(vertx)))-1, 
+                    to=as.double(factor(netw3d.to,levels(vertx)))-1,     
+                    Cooc=Test.cooc$cooc+1,                               
+                    typeLink=as.factor(Test.cooc$sens.cooc ))  
+
+# Vecteur de couleur des liens entre les étudiants
+Colinks&lt;-ifelse(MyLinks$typeLink==&quot;Similarite&quot;,&quot;black&quot;,&quot;red&quot;)
+MyLinks$Linkcolor&lt;-Colinks
+# Représentation du graphe
+forceNetwork(Links = MyLinks, Nodes = MyNodes, Source = &quot;from&quot;, 
+             Target = &quot;to&quot;, Value = &quot;Cooc&quot;, NodeID = &quot;student&quot;, 
+             Group = &quot;group&quot;, opacity = 0.9, Nodesize = &quot;size&quot;, 
+             linkDistance = 90, fontSize = 20, linkColour = Colinks, 
+             legend = TRUE)</code></pre>
+<div id="htmlwidget-1" style="width:672px;height:480px;" class="forceNetwork html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"links":{"source":[2,2,2,13,13,13,6,8,8,7,7,7,7,10,10,11,5,4],"target":[13,10,9,10,0,9,1,3,4,11,3,4,12,0,9,1,1,12],"value":[5,1,2,1,4,2,1,1,2,1,1,1,1,1,4,1,1,5],"colour":["black","red","red","red","black","red","red","red","red","red","red","red","red","red","black","red","red","black"]},"nodes":{"name":["Abib","Afann","Bertholo","Borio","Cedrico","HighTech","LeMaham","Nelly","Reine","Roma","Sorelite","ThePig","TheTouks","Vanou"],"group":["grp1","grp4","grp4","grp2","grp2","grp1","grp2","grp4","grp4","grp1","grp1","grp1","grp2","grp4"],"nodesize":[5,5,5,5,5,5,5,5,5,5,5,5,5,5]},"options":{"NodeID":"student","Group":"group","colourScale":"d3.scaleOrdinal(d3.schemeCategory20);","fontSize":20,"fontFamily":"serif","clickTextSize":50,"linkDistance":90,"linkWidth":"function(d) { return Math.sqrt(d.value); }","charge":-30,"opacity":0.9,"zoom":false,"legend":true,"arrows":false,"nodesize":true,"radiusCalculation":" Math.sqrt(d.nodesize)+6","bounded":false,"opacityNoHover":0,"clickAction":null}},"evals":[],"jsHooks":[]}</script>
+<p><code>Les data frame MyNodes et MyLinks</code></p>
+<pre><code>##    student group size
+## 1     Abib  grp1    5
+## 2    Afann  grp4    5
+## 3 Bertholo  grp4    5</code></pre>
+<pre><code>##   from to Cooc      typeLink Linkcolor
+## 1    2 13    5    Similarite     black
+## 2    2 10    1 Dissimilarite       red
+## 3    2  9    2 Dissimilarite       red</code></pre>
+</div>
+</div>
+</div>
+<div id="discussion" class="section level1">
+<h1>DISCUSSION</h1>
+<p>Le réseau montre que les liens entre <code>LeCherif</code> et <code>Maxi</code> et entre <code>LeDidier</code> et <code>LaHossou</code> ne sont pas significatif. <code>Maxi</code> et <code>LaHossou</code> n’existent pas dans ce reseau. En effet, leur présence ou leur absence ne permet pas de prédire avec un niveau éleve de confiance le comportement d’un autre étudiant (ils participent à presque toutes les activités, donc ils n’apportent aucune information particulière). Par contre, on peut remarquer que <code>Vanou</code> et <code>Bertholo</code> participent de manière significative aux mêmes activités et tous deux ont des comportements opposés à ceux de <code>Sorelite</code>. Pour ces trois derniers étudiants, on peut prédire avec un niveau de confiance élevé le comportement de l’un à partir de celui de l’autre.</p>
+</div>

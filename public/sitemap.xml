@@ -3,73 +3,69 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/portfolio/work2/</loc>
-    <lastmod>2016-11-05T19:41:01+05:30</lastmod>
+    <loc>/outilsr/github/</loc>
+    <lastmod>2018-12-26T18:14:40+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/portfolio/work3/</loc>
-    <lastmod>2016-11-05T19:44:32+05:30</lastmod>
+    <loc>/outilsr/monr/</loc>
+    <lastmod>2018-12-26T18:14:31+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/portfolio/work4/</loc>
-    <lastmod>2016-11-05T19:50:47+05:30</lastmod>
+    <loc>/outilsr/rmarkdown/</loc>
+    <lastmod>2018-12-26T18:14:18+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/portfolio/work5/</loc>
-    <lastmod>2016-11-05T19:53:42+05:30</lastmod>
+    <loc>/outilsr/blogdown/</loc>
+    <lastmod>2018-12-26T18:14:05+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/portfolio/work6/</loc>
-    <lastmod>2016-11-05T19:56:17+05:30</lastmod>
+    <loc>/outilsr/netlify/</loc>
+    <lastmod>2018-12-26T18:12:30+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/portfolio/work7/</loc>
-    <lastmod>2016-11-05T19:57:40+05:30</lastmod>
+    <loc>/outilsr/hugo/</loc>
+    <lastmod>2018-12-26T18:12:06+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/portfolio/work8/</loc>
-    <lastmod>2016-11-05T19:59:22+05:30</lastmod>
+    <loc>/post/graphinterac/</loc>
+    <lastmod>2018-12-26T17:27:31+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/portfolio/work9/</loc>
-    <lastmod>2016-11-05T20:02:19+05:30</lastmod>
+    <loc>/post/balancedsamplingr/</loc>
+    <lastmod>2018-12-26T17:26:02+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/portfolio/work10/</loc>
-    <lastmod>2016-11-05T20:22:08+05:30</lastmod>
+    <loc>/post/null_models_avec_r/</loc>
+    <lastmod>2018-12-26T17:25:23+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/portfolio/work11/</loc>
-    <lastmod>2016-11-05T20:23:59+05:30</lastmod>
+    <loc>/post/mappingr/</loc>
+    <lastmod>2018-12-26T17:25:49+00:00</lastmod>
   </url>
   
   <url>
     <loc>/contact/</loc>
-    <lastmod>2016-11-06T13:00:25+05:30</lastmod>
+    <lastmod>2018-12-26T15:41:51+00:00</lastmod>
   </url>
   
   <url>
     <loc>/about/</loc>
-    <lastmod>2016-11-05T21:05:33+05:30</lastmod>
+    <lastmod>2018-12-26T13:16:12+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/portfolio/work1/</loc>
-    <lastmod>2016-11-05T18:25:22+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2015-07-23-r-rmarkdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/tags/balancedsamplingr/</loc>
+    <lastmod>2018-12-26T17:26:02+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -78,50 +74,74 @@
   </url>
   
   <url>
-    <loc>/tags/plot/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/tags/graphinterac/</loc>
+    <lastmod>2018-12-26T17:27:31+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/portfolio/</loc>
-    <lastmod>2016-11-05T19:41:01+05:30</lastmod>
+    <loc>/categories/mapping/</loc>
+    <lastmod>2018-12-26T17:25:49+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mappingr/</loc>
+    <lastmod>2018-12-26T17:25:49+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/null_models_avec_r/</loc>
+    <lastmod>2018-12-26T17:27:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/outilsr/</loc>
+    <lastmod>2018-12-26T18:14:40+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <lastmod>2018-12-26T17:27:31+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/tags/r/</loc>
+    <lastmod>2018-12-26T18:14:40+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/regression/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/categories/sampling/</loc>
+    <lastmod>2018-12-26T17:26:02+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2016-11-05T19:41:01+05:30</lastmod>
+    <lastmod>2018-12-26T18:14:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/software/</loc>
+    <lastmod>2018-12-26T18:14:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/statistics/</loc>
+    <lastmod>2018-12-26T17:27:31+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <lastmod>2018-12-26T17:26:02+00:00</lastmod>
     <priority>0</priority>
   </url>
   

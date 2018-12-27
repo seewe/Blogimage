@@ -1,0 +1,16 @@
+---
+title: Les cartes interactives avec R
+author: "Sergio Ewane Ebouele"
+date: "`r Sys.time()`"
+weight: 0
+categories:
+  - mapping
+tags:
+  - mappingr
+  - graphinterac
+showonlyimage : false
+draft : false
+image : "img/portfolio/mapping.PNG"
+---
+
+

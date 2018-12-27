@@ -1,0 +1,31 @@
+---
+title: "HUGO (choisis ton modèle de site web)"
+author: "Sergio Ewane Ebouele"
+date: "`r Sys.time()`"
+next: /tutorials/github-pages-blog
+linktitle: HUGO
+prev: /tutorials/automated-deployments
+archives: '2018'
+weight: 10
+categories:
+  - Software
+tags:
+  - R
+showonlyimage : true
+draft : false
+image : "img/portfolio/hugo.PNG"
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+

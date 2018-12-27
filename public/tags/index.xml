@@ -6,35 +6,53 @@
     <description>Recent content in Tags on See We on R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 26 Dec 2018 17:26:02 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Plot</title>
-      <link>/tags/plot/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Balancedsamplingr</title>
+      <link>/tags/balancedsamplingr/</link>
+      <pubDate>Wed, 26 Dec 2018 17:26:02 +0000</pubDate>
       
-      <guid>/tags/plot/</guid>
+      <guid>/tags/balancedsamplingr/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>R Markdown</title>
-      <link>/tags/r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Graphinterac</title>
+      <link>/tags/graphinterac/</link>
+      <pubDate>Wed, 26 Dec 2018 17:27:31 +0000</pubDate>
       
-      <guid>/tags/r-markdown/</guid>
+      <guid>/tags/graphinterac/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Regression</title>
-      <link>/tags/regression/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Mappingr</title>
+      <link>/tags/mappingr/</link>
+      <pubDate>Wed, 26 Dec 2018 17:25:49 +0000</pubDate>
       
-      <guid>/tags/regression/</guid>
+      <guid>/tags/mappingr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Null_models_avec_r</title>
+      <link>/tags/null_models_avec_r/</link>
+      <pubDate>Wed, 26 Dec 2018 17:27:31 +0000</pubDate>
+      
+      <guid>/tags/null_models_avec_r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Wed, 26 Dec 2018 18:14:40 +0000</pubDate>
+      
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     

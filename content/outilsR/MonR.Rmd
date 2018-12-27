@@ -1,0 +1,31 @@
+---
+title: "RSTUDIO (l'interface de developpement intégré de R)"
+author: "Sergio Ewane Ebouele"
+date: "`r Sys.time()`"
+next: /tutorials/github-pages-blog
+linktitle: R
+prev: /tutorials/automated-deployments
+archives: '2018'
+weight: 10
+categories:
+  - Software
+tags:
+  - R
+showonlyimage : true
+draft : false
+image : "img/portfolio/Rstudio.PNG"
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+

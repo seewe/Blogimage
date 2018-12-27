@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software on See We on R</title>
+    <link>/categories/software/</link>
+    <description>Recent content in Software on See We on R</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Dec 2018 18:14:40 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GITHUB (créés des sauvegardes de ton code R)</title>
+      <link>/outilsr/github/</link>
+      <pubDate>Wed, 26 Dec 2018 18:14:40 +0000</pubDate>
+      
+      <guid>/outilsr/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RSTUDIO (l&#39;interface de developpement intégré de R)</title>
+      <link>/outilsr/monr/</link>
+      <pubDate>Wed, 26 Dec 2018 18:14:31 +0000</pubDate>
+      
+      <guid>/outilsr/monr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RMARKDOWN (édites des pages html avec R)</title>
+      <link>/outilsr/rmarkdown/</link>
+      <pubDate>Wed, 26 Dec 2018 18:14:18 +0000</pubDate>
+      
+      <guid>/outilsr/rmarkdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BLOGDOWN (créés ton site web avec R)</title>
+      <link>/outilsr/blogdown/</link>
+      <pubDate>Wed, 26 Dec 2018 18:14:05 +0000</pubDate>
+      
+      <guid>/outilsr/blogdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Netlify (deplois ton site web sur internet)</title>
+      <link>/outilsr/netlify/</link>
+      <pubDate>Wed, 26 Dec 2018 18:12:30 +0000</pubDate>
+      
+      <guid>/outilsr/netlify/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HUGO (choisis ton modèle de site web)</title>
+      <link>/outilsr/hugo/</link>
+      <pubDate>Wed, 26 Dec 2018 18:12:06 +0000</pubDate>
+      
+      <guid>/outilsr/hugo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

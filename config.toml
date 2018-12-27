@@ -12,7 +12,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [params]
   #Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
-  style = "default"
+  style = "blue"
   description = "Programme R que j'ai redigé pendant mon travail de professionnel de recherche à uLaval "
   copyright = "&copy; 2018 SeeWe"
   sidebarAbout = [
@@ -35,16 +35,22 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
   # Nav links in the side bar
   [[params.navlinks]]
-  name = "Home"
-  url = "portfolio/"
+  name = "Les Posts"
+  url = "post/"
   home = true
+  
+  # Nav links in the side bar
+  [[params.navlinks]]
+  name = "Des Outils R et autres"
+  url = "outilsR/"
+  home = false
 
   [[params.navlinks]]
-  name = "About"
+  name = "À propos de SeeWe"
   url = "about/"
 
   [[params.navlinks]]
-  name = "Get in touch"
+  name = "Contacter SeeWe"
   url = "contact/"
 
   [params.social]

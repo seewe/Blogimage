@@ -1,0 +1,11 @@
+---
+title: Contacter Sergio Ewane Ebouele (SeeWe)
+author: Sergio Ewane Ebouele
+date: "`r Sys.time()`"
+---
+  
+
+Pour toutes vos questions en statistique appliquée, vous pouvez me contacter pour qu'on en discute. Ça me fera un grand plaisir de vous répondre sur un sujet qui concerne la plannification des expériences, l'analyse de données, les modèles de regression, l'échantillonnage etc.  
+
+
+

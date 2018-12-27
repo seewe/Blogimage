@@ -11,11 +11,38 @@
     
     
     <item>
-      <title>R</title>
-      <link>/categories/r/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Mapping</title>
+      <link>/categories/mapping/</link>
+      <pubDate>Wed, 26 Dec 2018 17:25:49 +0000</pubDate>
       
-      <guid>/categories/r/</guid>
+      <guid>/categories/mapping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sampling</title>
+      <link>/categories/sampling/</link>
+      <pubDate>Wed, 26 Dec 2018 17:26:02 +0000</pubDate>
+      
+      <guid>/categories/sampling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>/categories/software/</link>
+      <pubDate>Wed, 26 Dec 2018 18:14:40 +0000</pubDate>
+      
+      <guid>/categories/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistics</title>
+      <link>/categories/statistics/</link>
+      <pubDate>Wed, 26 Dec 2018 17:27:31 +0000</pubDate>
+      
+      <guid>/categories/statistics/</guid>
       <description></description>
     </item>
     

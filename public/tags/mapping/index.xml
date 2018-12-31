@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mapping on See We on R</title>
-    <link>/categories/mapping/</link>
+    <link>/tags/mapping/</link>
     <description>Recent content in Mapping on See We on R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 29 Dec 2018 03:17:17 +0000</lastBuildDate>
     
-	<atom:link href="/categories/mapping/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/mapping/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,15 +17,6 @@
       <pubDate>Sat, 29 Dec 2018 03:17:17 +0000</pubDate>
       
       <guid>/outilsr/gadm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Les cartes interactives avec R</title>
-      <link>/post/mappingr/</link>
-      <pubDate>Wed, 26 Dec 2018 17:25:49 +0000</pubDate>
-      
-      <guid>/post/mappingr/</guid>
       <description></description>
     </item>
     

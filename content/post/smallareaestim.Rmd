@@ -1,0 +1,19 @@
+---
+title: "Estimation dans les petits domaines avec R"
+author: "Sergio Ewane Ebouele"
+date: "`r Sys.time()`"
+next: /tutorials/github-pages-blog
+linktitle: ESTIMATION DANS LES PETITS DOMAINES AVEC R
+prev: /tutorials/automated-deployments
+archives: '2018'
+weight: 10
+categories:
+  - Sampling
+tags:
+  - smalareaestim
+showonlyimage : false
+draft : false
+image : "img/portfolio/sae.PNG"
+---
+
+

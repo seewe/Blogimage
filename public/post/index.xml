@@ -6,10 +6,19 @@
     <description>Recent content in Posts on See We on R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Dec 2018 17:27:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Dec 2018 00:57:44 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Estimation dans les petits domaines avec R</title>
+      <link>/post/smallareaestim/</link>
+      <pubDate>Fri, 28 Dec 2018 00:57:44 +0000</pubDate>
+      
+      <guid>/post/smallareaestim/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Construire un graphe interactif avec R</title>

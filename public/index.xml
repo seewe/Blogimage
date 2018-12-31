@@ -6,10 +6,28 @@
     <description>Recent content on See We on R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Dec 2018 18:14:40 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Dec 2018 03:17:17 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>GADM (cartographies les regions administratives des pays du monde avec R)</title>
+      <link>/outilsr/gadm/</link>
+      <pubDate>Sat, 29 Dec 2018 03:17:17 +0000</pubDate>
+      
+      <guid>/outilsr/gadm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estimation dans les petits domaines avec R</title>
+      <link>/post/smallareaestim/</link>
+      <pubDate>Fri, 28 Dec 2018 00:57:44 +0000</pubDate>
+      
+      <guid>/post/smallareaestim/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>GITHUB (créés des sauvegardes de ton code R)</title>

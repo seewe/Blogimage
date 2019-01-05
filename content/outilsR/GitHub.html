@@ -1,21 +1,38 @@
 ---
-title: "GITHUB (créés des sauvegardes de ton code R)"
+title: "GITHUB (crÃ©Ã©s des sauvegardes de ton code R)"
 author: "Sergio Ewane Ebouele"
-date: "2018-12-26 18:14:40"
-next: /tutorials/github-pages-blog
+date: "2018-12-31 19:20:42"
+categories: Software
+draft: no
+image: img/portfolio/github.PNG
 linktitle: GitHub
+next: /tutorials/github-pages-blog
 prev: /tutorials/automated-deployments
+showonlyimage: yes
+tags: R
 archives: '2018'
 weight: 10
-categories:
-  - Software
-tags:
-  - R
-showonlyimage : true
-draft : false
-image : "img/portfolio/github.PNG"
 ---
 
 
 
-
+<p>Un projet de programmation informatique est une suite de modification d’un projet initial. Très souvent, le programmeur y apporte des modifications qui créées des bugs sur les lignes de commande ou les fonctions précédente. Dans une telle situation, la solution la plus évidente est de revenir au programme précédent qui fonctionnait très bien. En absence d’un système de gestion de notre code, il peut être difficile de retrouver toutes les lignes de commande ajoutée et de les supprimer. D’autre part, un projet de programmation peut faire intervenir plus d’une personne. Dans une telle situation, il existe souvent une structuration des rôles : un maître de projet et des followers. Dans ce cas de figure, il revient au maître de projet de valider les propositions des followers puis de les intégrer dans la version finale du projet. Pour réaliser un tel travail, le maître de projet ne dois se doter d’outils créés pour ce type de travail. Heureusement pour lui, il existe actuellement de nombreuses solutions qui facilitent l’accomplissement de cette tâche. Parmis ces outils, la plateforme <strong>GitHub</strong> est la plus populaire.<br />
+Dans la suite, le tutoriel fait une prise à main de la plateforme GitHub. Il montre les étapes à suivre pour créer un compte GitHub, il décrit les différents flux de fichier entre un ordinateur personnel et un compte en ligne et il montre comment connecter un projet Rstudio avec un repertoire d’un compte GitHub.</p>
+<div id="github-cest-quoi" class="section level1">
+<h1>GitHub, c’est quoi ?</h1>
+<p>En pratique, il est difficile et long d’avoir une version finale pour un projet de programmation. Pendant la réalisation du projet, le programmeur apportent des modification minimale ou d’envergure à un code préexistant. Ces modifications peuvent être compatibles avec les fonctionnalités préexistantes ou par contre créer des bugs. Pour éviter des delais supplémentaires dans la réalisation du projet, le programmeur peut fonctionner avec des codes versionnés. Une première solution serait de sauvegarder le projet en local avant toutes modifications puis de revenir à cette version sauvegardée si la modification apportée au projet crée des bugs. Cette façon de procéder peut être trés fatidieuse et couteuse en terme d’espace de stockage avec le temps. Pour faciliter la tâche aux programmeurs, la plateforme en ligne <strong>GitHub</strong> a été developpée.<br />
+<strong>GitHub</strong> peut être défini comme un réseau social pour les programmeurs. C’est une plateforme en ligne de sauvegarde, de versionnage, de partage et de commentaire des codes informatiques. Elle permet de sauvegarder des projets de programmation en ligne, de partager des bouts de codes, de versionner les codes, de commenter et de proposer des améliorations de codes à d’autres programmeurs. Cette plateforme a une version libre et payante. La version libre permet aux programmeur d’héberger gratuitement son projet et de le rendre accessible au publique. Par contre, la version payante créée un espace d’hébergement privé et le code n’est pas distribué gratuitement. Pour plus de détail sur cet outil, le lecteur peut consulter cette <a href="https://fr.wikipedia.org/wiki/GitHub">documentation</a>.<br />
+Contrairement à de nombreux documents sur GitHub, ce tutoriel ne présente aucune ligne de commande à retenir pour sauvegarder son code en ligne. Tout le travail est fait à l’aide d’outils ou de boîtes de dialogues qui necessitent d’appuyer sur un boutton pour valider ou rejeter son choix. En plus de la plateforme en ligne, l’outil <a href="https://desktop.github.com/">GitHub descktop</a> pemet de contourner l’utilisation de la console pour gérer les flux des fichiers.</p>
+</div>
+<div id="creer-son-compte-github" class="section level1">
+<h1>Créer son compte GitHub</h1>
+<p>La création d’un compte GitHub se fait comme celui des réseau sociaux. Il n’existe rien d’extraordinaire à découvrir à ce sujet. Pour créer un compte GitHub, on va suivre les cinq étapes ci-dessous :</p>
+<ul>
+<li><p>Aller sur la page d’acceuil <a href="https://github.com/">GitHub</a>;<br />
+<img src="F:/Blog%20and%20Website/codeSources/BlogImg/githupacceuil.PNG" alt="Page d’acceuil GitHub" /></p></li>
+<li><p>Cliquer sur le bouton <strong>Sign up</strong> en haut à droite de la page d’acceuil de GitHub. Ce boutton conduit à un formulaire à remplir. Ce formulaire a trois onglets correspondant aux trois étapes à suivre pour créer le compte. <a href="https://github.com/join?source=experiment-header-dropdowns-home">La première étape</a> vous demande d’inscrire des informations d’identification : pseudonyme, adresse mail, mot de passe du comtpe et un champ de verification. Remplissez les quatre champs par les informations appropriées puis cliquez sur create. Un message automatique vous est transmis pour verifier et valider votre adresse mail.<br />
+<img src="F:/Blog%20and%20Website/codeSources/BlogImg/signup.PNG" alt="sign" /></p></li>
+</ul>
+<p><a href="https://github.com/join/plan">La deuxième étape</a> permet de définir le plan ou le type de compte à créer. Il peut être gratuit (free, <span class="math inline">\(0\$\)</span>) ou privé (developper, <span class="math inline">\(7\$\)</span> par mois). Après avoir cliqué sur <code>create</code> à la première étape, vous êtes dirigé vers l’onglet <strong>choose your plan</strong>. choisissez votre plan tarifaire et cliquez sur les options en dessous pour définir votre organisation (eventuellement) et pour recevoir les notifications de mise à jour de GitHub.</p>
+<p><a href="https://github.com/join/customize">La troisième étape</a> permet de donner quelques informations sur son niveau en programmation, de dire pourquoi on veut utiliser GitHub, de donner des caractéristiques de sa personnalité et de dire pourquoi nous sommes interessé par GitHub. Une fois ces informations remplies, vous pouvez cliquer sur <code>submit</code> pour valider la création de votre compte</p>
+</div>

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/outilsr/github/</loc>
+    <lastmod>2018-12-31T19:20:42+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/outilsr/gadm/</loc>
     <lastmod>2018-12-29T03:17:17+00:00</lastmod>
   </url>
@@ -10,11 +15,6 @@
   <url>
     <loc>/post/smallareaestim/</loc>
     <lastmod>2018-12-28T00:57:44+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/outilsr/github/</loc>
-    <lastmod>2018-12-26T18:14:40+00:00</lastmod>
   </url>
   
   <url>
@@ -90,13 +90,13 @@
   </url>
   
   <url>
-    <loc>/categories/mapping/</loc>
+    <loc>/tags/mapping/</loc>
     <lastmod>2018-12-29T03:17:17+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/mapping/</loc>
+    <loc>/categories/mapping/</loc>
     <lastmod>2018-12-29T03:17:17+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -115,7 +115,7 @@
   
   <url>
     <loc>/outilsr/</loc>
-    <lastmod>2018-12-29T03:17:17+00:00</lastmod>
+    <lastmod>2018-12-31T19:20:42+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -127,7 +127,7 @@
   
   <url>
     <loc>/tags/r/</loc>
-    <lastmod>2018-12-26T18:14:40+00:00</lastmod>
+    <lastmod>2018-12-31T19:20:42+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -139,7 +139,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-12-29T03:17:17+00:00</lastmod>
+    <lastmod>2018-12-31T19:20:42+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -151,7 +151,7 @@
   
   <url>
     <loc>/categories/software/</loc>
-    <lastmod>2018-12-26T18:14:40+00:00</lastmod>
+    <lastmod>2018-12-31T19:20:42+00:00</lastmod>
     <priority>0</priority>
   </url>
   

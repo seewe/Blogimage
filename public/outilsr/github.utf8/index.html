@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>GITHUB (créés des sauvegardes de ton code R)</title>
+<meta name="description" content="Programme R que j&#39;ai redigé pendant mon travail de professionnel de recherche à uLaval ">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/owl.carousel.css">
+<link rel="stylesheet" href="/css/owl.theme.css">
+
+
+  <link href="/css/style.blue.css" rel="stylesheet" id="theme-stylesheet">
+
+ 
+
+  
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+
+<link href="/css/custom.css" rel="stylesheet">
+<link rel="shortcut icon" href="/img/favicon.png">
+
+
+</head>
+<body>
+  <div id="all">
+      <div class="container-fluid">
+          <div class="row row-offcanvas row-offcanvas-left">
+              <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
+  <div class="sidebar-content">
+    <h1 class="sidebar-heading"><a href="/">See We on R</a></h1>
+    
+      <p class="sidebar-p">J'applique mes connaissances en statistique pour donner plus d'arguments aux</p>
+    
+      <p class="sidebar-p">décisions ou pour mieux comprendre certains phénomènes mal compris jusqu'à présent.</p>
+    
+    <ul class="sidebar-menu">
+      
+        <li><a href="/post/">Les Posts</a></li>
+      
+        <li><a href="/outilsR/">Des Outils R et autres</a></li>
+      
+        <li><a href="/about/">À propos de SeeWe</a></li>
+      
+        <li><a href="/contact/">Contacter SeeWe</a></li>
+      
+    </ul>
+    <p class="social">
+  
+  <a href="https://www.facebook.com/sergio.ebouele" data-animate-hover="pulse" class="external facebook">
+    <i class="fa fa-facebook"></i>
+  </a>
+  
+  
+  
+  
+  
+  <a href="mailto:sergio.ewane-ebouele.1@ulaval.ca" data-animate-hover="pulse" class="email">
+    <i class="fa fa-envelope"></i>
+  </a>
+  
+  
+  
+  
+  <a href="https://github.com/seewe/Blogimage" data-animate-hover="pulse" class="external">
+    <i class="fa fa-github"></i>
+  </a>
+  
+  
+</p>
+
+
+    <div class="copyright">
+      <p class="credit">
+        
+          &copy; 2018 SeeWe
+        
+        
+
+
+
+      </p>
+    </div>
+  </div>
+</div>
+
+              
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  <div class="small-navbar visible-xs">
+  <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
+  <h1 class="small-navbar-heading"><a href="/">See We on R</a></h1>
+</div>
+
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="content-column-content">
+         <h1>GITHUB (créés des sauvegardes de ton code R)</h1>
+         
+
+<p>Un projet de programmation informatique est une suite de modification d&rsquo;un projet initial. Très souvent, le programmeur y apporte des modifications qui créées des bugs sur les lignes de commande ou les fonctions précédente. Dans une telle situation, la solution la plus évidente est de revenir au programme précédent qui fonctionnait très bien. En absence d&rsquo;un système de gestion de notre code, il peut être difficile de retrouver toutes les lignes de commande ajoutée et de les supprimer. D&rsquo;autre part, un projet de programmation peut faire intervenir plus d&rsquo;une personne. Dans une telle situation, il existe souvent une structuration des rôles : un maître de projet et des followers. Dans ce cas de figure, il revient au maître de projet de valider les propositions des followers puis de les intégrer dans la version finale du projet. Pour réaliser un tel travail, le maître de projet ne dois se doter d&rsquo;outils créés pour ce type de travail. Heureusement pour lui, il existe actuellement de nombreuses solutions qui facilitent l&rsquo;accomplissement de cette tâche. Parmis ces outils, la plateforme <strong>GitHub</strong> est la plus populaire.<br />
+Dans la suite, le tutoriel fait une prise à main de la plateforme GitHub. Il montre les étapes à suivre pour créer un compte GitHub, il décrit les différents flux de fichier entre un ordinateur personnel et un compte en ligne et il montre comment connecter un projet Rstudio avec un repertoire d&rsquo;un compte GitHub.</p>
+
+<h1 id="github-c-est-quoi">GitHub, c&rsquo;est quoi ?</h1>
+
+<p>En pratique, il est difficile et long d&rsquo;avoir une version finale pour un projet de programmation. Pendant la réalisation du projet, le programmeur apportent des modification minimale ou d&rsquo;envergure à un code préexistant. Ces modifications peuvent être compatibles avec les fonctionnalités préexistantes ou par contre créer des bugs. Pour éviter des delais supplémentaires dans la réalisation du projet, le programmeur peut fonctionner avec des codes versionnés. Une première solution serait de sauvegarder le projet en local avant toutes modifications puis de revenir à cette version sauvegardée si la modification apportée au projet crée des bugs. Cette façon de procéder peut être trés fatidieuse et couteuse en terme d&rsquo;espace de stockage avec le temps. Pour faciliter la tâche aux programmeurs, la plateforme en ligne <strong>GitHub</strong> a été developpée.<br />
+<strong>GitHub</strong> peut être défini comme un réseau social pour les programmeurs. C&rsquo;est une plateforme en ligne de sauvegarde, de versionnage, de partage et de commentaire des codes informatiques. Elle permet de sauvegarder des projets de programmation en ligne, de partager des bouts de codes, de versionner les codes, de commenter et de proposer des améliorations de codes à d&rsquo;autres programmeurs. Cette plateforme a une version libre et payante. La version libre permet aux programmeur d&rsquo;héberger gratuitement son projet et de le rendre accessible au publique. Par contre, la version payante créée un espace d&rsquo;hébergement privé et le code n&rsquo;est pas distribué gratuitement. Pour plus de détail sur cet outil, le lecteur peut consulter cette <a href="https://fr.wikipedia.org/wiki/GitHub">documentation</a>.<br />
+Contrairement à de nombreux documents sur GitHub, ce tutoriel ne présente aucune ligne de commande à retenir pour sauvegarder son code en ligne. Tout le travail est fait à l&rsquo;aide d&rsquo;outils ou de boîtes de dialogues qui necessitent d&rsquo;appuyer sur un boutton pour valider ou rejeter son choix. En plus de la plateforme en ligne, l&rsquo;outil <a href="https://desktop.github.com/">GitHub descktop</a> pemet de contourner l&rsquo;utilisation de la console pour gérer les flux des fichiers.</p>
+
+<h1 id="créer-un-compte-github">Créer un compte GitHub</h1>
+
+         
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+      </div>
+  </div>
+  <script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.cookie.js"> </script>
+<script src="/js/ekko-lightbox.js"></script>
+<script src="/js/jquery.scrollTo.min.js"></script>
+<script src="/js/masonry.pkgd.min.js"></script>
+<script src="/js/imagesloaded.pkgd.min.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/front.js"></script>
+
+</body>
+</html>

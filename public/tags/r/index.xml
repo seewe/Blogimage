@@ -6,18 +6,18 @@
     <description>Recent content in R on See We on R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Dec 2018 18:14:40 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Dec 2018 19:20:42 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>GITHUB (créés des sauvegardes de ton code R)</title>
+      <title>GITHUB (crÃ©Ã©s des sauvegardes de ton code R)</title>
       <link>/outilsr/github/</link>
-      <pubDate>Wed, 26 Dec 2018 18:14:40 +0000</pubDate>
+      <pubDate>Mon, 31 Dec 2018 19:20:42 +0000</pubDate>
       
       <guid>/outilsr/github/</guid>
-      <description></description>
+      <description>Un projet de programmation informatique est une suite de modification d’un projet initial. Très souvent, le programmeur y apporte des modifications qui créées des bugs sur les lignes de commande ou les fonctions précédente. Dans une telle situation, la solution la plus évidente est de revenir au programme précédent qui fonctionnait très bien. En absence d’un système de gestion de notre code, il peut être difficile de retrouver toutes les lignes de commande ajoutée et de les supprimer.</description>
     </item>
     
     <item>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on See We on R</title>
+    <title>Posts on See We in R</title>
     <link>/post/</link>
-    <description>Recent content in Posts on See We on R</description>
+    <description>Recent content in Posts on See We in R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Dec 2018 00:57:44 +0000</lastBuildDate>

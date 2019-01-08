@@ -12,7 +12,7 @@ categories:
 tags:
   - null_models_avec_r
   - graphinterac
-showonlyimage : false
+showonlyimage : true
 draft : false
 image : "img/portfolio/nullmodel.PNG"
 ---

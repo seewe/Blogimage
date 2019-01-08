@@ -1,7 +1,7 @@
 ---
 title: "Null models"
 author: "Sergio Ewane Ebouele"
-date: "2018-12-26 17:25:23"
+date: "2019-01-08 10:17:52"
 next: /tutorials/github-pages-blog
 linktitle: NULL MODELS AVEC R
 prev: /tutorials/automated-deployments
@@ -21,14 +21,14 @@ image : "img/portfolio/nullmodel.PNG"
 
 <div id="packages-utilises" class="section level1">
 <h1>PACKAGES UTILISÉS</h1>
-<pre class="r"><code>library(vegan)   # permet de simuler les nulls models a partir d&#39;une matrice de présence absence</code></pre>
+<pre class="r"><code>library(vegan)   # permet de simuler les nulls models a partir d&#39;une Mpa</code></pre>
 </div>
 <div id="introduction" class="section level1">
 <h1>INTRODUCTION</h1>
 <p>À partir des données d’un échantillon, le statisticien a pour ambition de décrire un phénomène particulier dans la population. L’inférence statistique est cette magie que le statisticien opère à partir d’une partie de la population pour dire avec une certain confiance ce qui se passe dans la population.<br />
-Les tests statistiques sont l’un des outils les plus utilisés dans le domaine de l’inférence. Un test statistique permet de confronter deux hypothèses disjoints et de conclure au rejet de l’un ou à l’acceptation de l’autre. On confronte l’hypothèse nulle <code>H0</code> (est l’hypothèse de la verité actuelle, de ce qui est considérée comme la norme, de ce qui est standard ou le statu qo) à une hypothèse alternative <code>H1</code> (est l’hypothèse de la recherche, de l’innovation, de ce que l’on veut montrer). En exemple, imaginez vous étudiant en troisième année de statistique dans une université québécoise. Votre cadet, après avoir suivi une page publicitaire à la télévision vous demande ceci : <code>Est - il vrai que les québécois sont plus grands de taille que les parisiens ? Un biologiste vient de l'affirmer dans une publicité de vêtement d'été.</code><br />
-Pour répondre à ce jeune, supposons la taille moyenne des parisiens connue. Cette même information étant absente pour la ville de Québec, le statisticien va collecter les informations sur la taille d’un échantillon de québécois. À partir des données de cet échantillon il pourra accepter ou rejeter les affirmations du biologiste avec un niveau de confiance donné. Pour resoudre ce problème, l’une des condition préalable est de supposer que la taille moyenne des habitants de Québec est distribuée selon une loi connue sous l’hypothèse nulle du test.<br />
-Que se passe t-il lorsque la loi sous l’hypothèse nulle du test est inconnue ? Nous allons répondre à cette question dans le cas particulier de l’étude des modèles de regroupement dans les communautés écologique. On voudrait connaitre si la présence ou l’absence des espèces sur les sites est dû au hasard. Sinon, quelle est la structure de regroupement qui dictent leur comportement de présence-absence.</p>
+Les tests statistiques sont l’un des outils les plus utilisés dans le domaine de l’inférence. Un test statistique permet de confronter deux hypothèses disjointes et de conclure au rejet de l’une ou à l’acceptation de l’autre. On confronte l’hypothèse nulle <code>H0</code> (l’hypothèse de la verité actuelle, de ce qui est considérée comme la norme, de ce qui est standard ou le statu qo) à une hypothèse alternative <code>H1</code> (l’hypothèse de la recherche, de l’innovation, de ce que l’on veut montrer). En exemple, imaginez vous étudiant en troisième année de statistique dans une université québécoise. Votre cadet, après avoir suivi une page publicitaire à la télévision vous demande ceci : <code>Est - il vrai que les québécois sont plus grands de taille que les parisiens ? Un biologiste vient de l'affirmer dans une publicité de vêtement d'été.</code><br />
+Pour répondre à ce jeune, supposons que la taille moyenne des parisiens est connue. Cette même information étant absente pour la ville de Québec, le statisticien va collecter les informations sur la taille d’un échantillon de québécois. À partir des données de cet échantillon, il pourra accepter ou rejeter les affirmations du biologiste avec un niveau de confiance donné. Pour resoudre ce problème, une condition préalable est de supposer que la taille moyenne des habitants de Québec est distribuée selon une loi connue sous l’hypothèse nulle du test.<br />
+Que se passe t-il lorsque la loi sous l’hypothèse nulle du test est inconnue ? Nous allons répondre à cette question dans le cas particulier de l’étude des modèles de regroupement dans les communautés écologique. Dans ce tutoriel, on voudrait connaitre si la présence ou l’absence des individus statistiques sur des sites est dû au hasard. Sinon, quelle est la structure de regroupement qui dictent leur comportement de présence-absence?</p>
 </div>
 <div id="les-null-models" class="section level1">
 <h1>LES NULL MODELS</h1>

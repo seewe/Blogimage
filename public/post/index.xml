@@ -6,10 +6,20 @@
     <description>Recent content in Posts on See We in R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Dec 2018 00:57:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Jan 2019 10:17:52 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Null models</title>
+      <link>/post/null_models_avec_r/</link>
+      <pubDate>Tue, 08 Jan 2019 10:17:52 +0000</pubDate>
+      
+      <guid>/post/null_models_avec_r/</guid>
+      <description>PACKAGES UTILISÉSlibrary(vegan) # permet de simuler les nulls models a partir d&amp;#39;une MpaINTRODUCTIONÀ partir des données d’un échantillon, le statisticien a pour ambition de décrire un phénomène particulier dans la population. L’inférence statistique est cette magie que le statisticien opère à partir d’une partie de la population pour dire avec une certain confiance ce qui se passe dans la population.
+Les tests statistiques sont l’un des outils les plus utilisés dans le domaine de l’inférence.</description>
+    </item>
     
     <item>
       <title>Estimation dans les petits domaines avec R</title>
@@ -36,16 +46,6 @@
       
       <guid>/post/balancedsamplingr/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Null models</title>
-      <link>/post/null_models_avec_r/</link>
-      <pubDate>Wed, 26 Dec 2018 17:25:23 +0000</pubDate>
-      
-      <guid>/post/null_models_avec_r/</guid>
-      <description>PACKAGES UTILISÉSlibrary(vegan) # permet de simuler les nulls models a partir d&amp;#39;une matrice de présence absenceINTRODUCTIONÀ partir des données d’un échantillon, le statisticien a pour ambition de décrire un phénomène particulier dans la population. L’inférence statistique est cette magie que le statisticien opère à partir d’une partie de la population pour dire avec une certain confiance ce qui se passe dans la population.
-Les tests statistiques sont l’un des outils les plus utilisés dans le domaine de l’inférence.</description>
     </item>
     
     <item>

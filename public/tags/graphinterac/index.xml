@@ -6,7 +6,7 @@
     <description>Recent content in Graphinterac on See We in R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Jan 2019 10:20:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Jan 2019 10:24:47 +0000</lastBuildDate>
     
 	<atom:link href="/tags/graphinterac/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Null models</title>
       <link>/post/null_models_avec_r/</link>
-      <pubDate>Tue, 08 Jan 2019 10:20:33 +0000</pubDate>
+      <pubDate>Tue, 08 Jan 2019 10:24:47 +0000</pubDate>
       
       <guid>/post/null_models_avec_r/</guid>
       <description>PACKAGES UTILISÉSlibrary(vegan) # permet de simuler les nulls models a partir d&amp;#39;une MpaINTRODUCTIONÀ partir des données d’un échantillon, le statisticien a pour ambition de décrire un phénomène particulier dans la population. L’inférence statistique est cette magie que le statisticien opère à partir d’une partie de la population pour dire avec une certain confiance ce qui se passe dans la population.

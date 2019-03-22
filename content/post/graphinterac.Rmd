@@ -59,8 +59,8 @@ etudiants
 
 ## La structure de regroupement des étudiants
   Les figures ci-dessous montrent qu'il existe une structure de cooccurrence négative entre les étudiants. La présentation du concept des `null models` est faite dans un autre [tutoriel (en cours de rédaction)](lien). Néanmoins, notons que ce graphique présente la distribution de quatre indicateurs : l'indice de la matrice de température, l'indice N0, l'indice NODF et l'indice Cscore. Les deux premiers indicateurs permettent de mesurer une structure de niche dans la communauté étudié alors que les deux derniers permettent de mesurer une structure de cooccurrence des espèces ou des individus de la communauté. Le trait rouge matérialise la valeur de l'indicateur calculé sur la communauté observée alors que l'histogramme illustre la distribution des incicateurs calculés sur les communautés simulées.  
-  L'idée des `null models` est de comparer le hasard à ce qui est observée. Si le jeu de données observé ressemble aux jeux de données obtenus dans une situation de hasard alors on dira qu'il n'existe aucune structure de regroupement dans la communauté. Sinon, il existe une structure particulière qu'il faut analyser. Cette notion est très utilisée en biologie, plus particulièrement en écologie.  
-  Pour faire le parallèle avec notre exemple, les étudiants sont similaires aux espèces et les activités sont similaires aux sites.
+  L'idée des `null models` est de comparer le hasard à ce qui est observé. Si le jeu de données observé ressemble aux jeux de données obtenus dans une situation de hasard alors on dira qu'il n'existe aucune structure de regroupement dans la communauté. Sinon, il existe une structure particulière qu'il faut analyser. Les `null models` sont très utilisé en biologie, plus particulièrement en écologie quantitative.  
+  Pour faire le parallèle avec l'exemple pratique, les étudiants sont similaires aux espèces et les activités sont similaires aux sites.
 
 ```{r echo=FALSE, fig.width=13, message=FALSE, warning=FALSE}
 # Chargement des codes sources
@@ -99,8 +99,8 @@ hist(Sind.etud$Cscore, main = "Cscore", freq = FALSE, xlab = "Cscore")  ;  ablin
 
 ## La matrice de liens significatifs entre les étudiants
 
-Pour analyser la structure de cooccurrence détectée ci-dessus, le tutoriel mesure le lien entre les étudiants. On peut utiliser plusieurs métrique pour quantifier la distance entre deux étudiants. Dans ce contexte particulier, l'indice de simmilarité de `Sorensen` est la plus courante. Cette diatance mesure la similarité ou la dissimilarité entre deux entités de la `Mpa`. Un lien est significatif lorsqu'il est très différent des liens déterminé par le hasard. Le tableau ci dessous présente la matrice de lien entre les étudiants, leur niveau de significativité et leur type (similarité ou dissimilarité).  
-La variable `Cooc` mesure le niveau de cooccurrence entre les espèces. En fait, il représente le nombre de fois où deux étudiants se sont retrouvé dans la même activité. Si sa valeur est plus faible que la moyenne alors les etudiants sont dissimilaires, sinon ils sont similaires. Pour représenter un reseau important, le seuil de significativité d'un lien a été fixé à `alpha=21%`. Pour des études réelles, il est conseillé de choisir l'un des seuils suivants : `10%` , `5%` ou `1%`.
+Pour analyser la structure de cooccurrence détectée ci-dessus, le tutoriel mesure le lien entre les étudiants. On peut utiliser plusieurs métriques pour quantifier la distance entre deux étudiants. Dans ce contexte particulier, l'indice de similarité de `Sorensen` est le plus courant. Cette diatance mesure la similarité ou la dissimilarité entre deux individus de la `Mpa`. Un lien est significatif lorsqu'il est très différent des liens déterminés par le hasard. Le tableau ci-dessous présente la matrice de lien entre les étudiants, leur niveau de significativité et leur type (similarité ou dissimilarité).  
+La variable `Cooc` mesure le niveau de cooccurrence entre les individus. En fait, il représente le nombre de fois où deux étudiants se sont retrouvés dans la même activité. Si sa valeur est plus faible que la moyenne alors les etudiants sont dissimilaires, sinon ils sont similaires. Dans cet exemple particulier, pour représenter un réseau important, le seuil de significativité d'un lien a été fixé à `alpha=21%`. Pour des études réelles, il est conseillé de choisir l'un des seuils suivants : `10%` , `5%` ou `1%`.
 
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
@@ -134,7 +134,7 @@ Test.cooc<-OBSdist[OBSdist$p.val.cooc<=0.21,]  ;  head(Test.cooc[,-4],5)
 ## Représentations graphiques
 
 ### Représentation du graphe non interactif
-Cette représentation ne permet pas d'interagir avec le graphique. Il est possible de pondérer les liens du réseau par un poids mais il reste difficile d'y ajouter des couleurs relativement à un facteur. Pour plus de précision sur ce type de représentation, le lecteur peut consulter la page suivante : [igraph](https://www.rdocumentation.org/packages/igraph/versions/1.2.2/topics/plot.igraph)
+Cette représentation ne permet pas d'interagir avec le graphique. Il est possible de pondérer les liens du réseau par un poids mais il reste difficile d'y ajouter des couleurs relatives à un facteur de regroupement d'individus. Pour plus de précisions sur ce type de représentation, le lecteur peut consulter la page suivante : [igraph](https://www.rdocumentation.org/packages/igraph/versions/1.2.2/topics/plot.igraph)
 
 ```{r fig.width=13}
 ###########################################
@@ -167,11 +167,11 @@ Contrairement au graphe ci-dessus, la représentation des réseaux à l'aide de 
 
 Pour arriver à un tel résultat, la fonction prend en entré plusieurs arguments. Les plus importants sont :  
 
-- Le data frame `MyNodes`: décrit les noeuds du réseau. On y retrouve les noms des noeuds, leur groupe d'appartenance et leur taille. Les deux dernière variables sont facultatives. Seule la première variable est obligatoire et doit être de type `factor`.  
+- Le data frame `MyNodes`: il décrit les noeuds du réseau. On y retrouve les noms des noeuds, leur groupe d'appartenance et leur taille. Les deux dernière variables sont facultatives. Seule la première variable est obligatoire et doit être de type `factor`.  
 
-- Le data frame `MyLinks`: décrit les liens du réseau. Il a deux variables obligatoires et plusieurs autres facultatives. Chaque ligne de ce jeu de données représente un lien du réseau. Un lien est caractérisé par l'origine (`from`) et la destination (`to`), le poids du lien (`Cooc`, caractéristique facultative), le groupe d'appartenance du lien (`typeLink`, une variable de type factor) etc. NB: les variables `from` et `to` doivent être les numéros des facteurs définis dans le data frame `MyNodes`. Pour représenter le réseau, la fonction utilise un code JavaScript. Pour cette raison, les variables d'origine-destination du réseau sont indexés à `0` (les numéros des facteurs doivent commencer à `0`).  
+- Le data frame `MyLinks`: il décrit les liens du réseau. Il a deux variables obligatoires et plusieurs autres facultatives. Chaque ligne de ce jeu de données représente un lien du réseau. Un lien est caractérisé par l'origine (`from`) et la destination (`to`), le poids du lien (`Cooc`, caractéristique facultative), le groupe d'appartenance du lien (`typeLink`, une variable de type factor) etc. NB: les variables `from` et `to` doivent être les numéros des facteurs définis dans le data frame `MyNodes`. Pour représenter le réseau, la fonction utilise un code JavaScript. Pour cette raison, les variables d'origine-destination du réseau sont indexés à `0` (les numéros des facteurs doivent commencer à `0`).  
 
-Ci-dessous, vous verrez le code et l'en-tête des data frame utilisés pour construire le reseau des étudiants basé sur leur fréquentation commune de certaines activités extra scolaire.
+Ci-dessous, le lecteur peut voir le code et l'en-tête des dataframes utilisés pour construire le réeau des étudiants basé sur leur fréquentation commune de certaines activités extra scolaire.
 
 ```{r fig.width=7}
 ######################################################
@@ -227,6 +227,6 @@ head(MyLinks,3)
 ```
 
 # DISCUSSION
-Le réseau montre que les liens entre `LeCherif` et `Maxi` et entre `LeDidier` et `LaHossou` ne sont pas significatif. `Maxi` et `LaHossou` n'existent pas dans ce reseau. En effet, leur présence ou leur absence ne permet pas de prédire avec un niveau éleve de confiance le comportement d'un autre étudiant (ils participent à presque toutes les activités, donc ils n'apportent aucune information particulière). Par contre, on peut remarquer que `Vanou` et `Bertholo` participent de manière significative aux mêmes activités et tous deux ont des comportements opposés à ceux de `Sorelite`. Pour ces trois derniers étudiants, on peut prédire avec un niveau de confiance élevé le comportement de l'un à partir de celui de l'autre.
+Le réseau montre que les liens entre `LeCherif` et `Maxi` et entre `LeDidier` et `LaHossou` ne sont pas significatifs. `Maxi` et `LaHossou` n'existent pas dans ce reseau. En effet, leur présence ou leur absence ne permet pas de prédire avec un niveau éleve de confiance le comportement d'un autre étudiant (ils participent à presque toutes les activités, donc ils n'apportent aucune information particulière). Par contre, on peut remarquer que `Vanou` et `Bertholo` participent de manière significative aux mêmes activités et tous deux ont des comportements opposés à ceux de `Sorelite`. Pour ces trois derniers étudiants, on peut prédire avec un niveau de confiance élevé le comportement de l'un à partir de celui de l'autre.
 
 

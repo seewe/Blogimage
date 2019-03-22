@@ -31,27 +31,25 @@ library(networkD3) # POUR CONSTRUIRE LES RESEAUX INTERACTIFS
 
 # INTRODUCTION
 
-  La représentation graphique des données reste un moyen important pour l'exploration de l'information contenue dans les jeux de données. Ce tutoriel montre comment procéder pour construire un graphe interactif avec `R`.
+  La représentation graphique des données reste un moyen important pour l'exploration de l'information contenue dans les jeux de données. Ce tutoriel présente un exemple d'analyse de données dans lequel un graphe interactif est construit avec `R`.
   
 # DÉFINITION DE GRAPHES
   D'après l'encyclopédie en ligne Wikipédia, La théorie des graphes est la discipline mathématique et informatique qui étudie les graphes.  
   Un graphe est un modèle abstrait de dessins de réseaux reliant des objets. Ce modèle est constitué par la donnée de points, appelés `nœuds` ou sommets (en référence aux polyèdres), et de `liens` entre ces points. ces liens sont souvent symétriques (les graphes sont alors dits non orientés) et sont appelés des arêtes. L'image ci-dessous illutre la définition d'un graphe non orienté.  
 ![Exemple de graphe non orienté](/post/graphinterac_files/graphill.png)
 
-
-  
   Ce tutoriel ne revient pas sur la théorie des graphes. Il illustre simplement la construction des graphes non orientés et interactif avec `R`.
 
 
 # EXEMPLE PRATIQUE : REPRÉSENTATION DES LIENS ENTRE LES ÉTUDIANTS
 
-Les données de ce papier sont fictives. Il s'agit d'un ensemble de `23` étudiants d'une salle de classe qui participent aux activités parascolaires chaque fin de semaines. Sur la base de leur participation aux activités, le papier représente graphiquement les liens significatifs (et leur sens) qui existent entre les étudiants.
+Les données de ce tutoriel sont fictives. Il s'agit d'une promotion de `23` étudiants qui participent aux activités parascolaires chaque fin de semaines. Sur la base de leur participation aux activités, le tutoriel représente graphiquement les liens significatifs (et leur sens, similarité ou dissimilarité) qui existent entre les étudiants.
 
 ## La matrice de présence-absence (Mpa) aux activités parascolaires
 Les lignes de la Mpa représentent les étudiants et les colonnes représentent les activités. Une cellule `(i,j)` est évaluée à `1` si l'étudiant `i` participe à l'activité `j`. Elle est évaluée à `0` si l'étudiant `i` ne participe pas à l'activité `j`.  
 Pour cet exemple, les étudiants fréquentent plus les `restaurants` pendant leur fin de semaine et participent plus aux parties de `soccer` ou de `cinéma`. Ils se rendent très peu à la `ferme` et à la `bibliothèque` pendant le week-end.  
-`Maxi` et la `LaHossou` sont les deux étudiants qui participent le plus aux activités en fin de semaine. Le premier est absent des activités réligieuses et le second ne se rend pas dans les clubs de dance. Par contre, `LeDidier` et `LeCherif` sont des étudiants très casaniers. Le premier se rend uniquement dans des club de dance et le second participe aux activités religieuses et se rend au restaurant.    
-Face à cette description, est ce vrai de croire que `Maxi` et `LaHossou` ont un lien de similarité particulier ? ou encore, existe t-il un lien de dissimilarité entre `Maxi` et `LeCherif` ou entre `LaHossou` et `LeDidier`?  
+`Maxi` et la `LaHossou` participent plus aux activités en fin de semaine. Le premier est absent des activités réligieuses et le second ne se rend pas dans les clubs de dance. Par contre, `LeDidier` et `LeCherif` sont des étudiants très casaniers. Le premier se rend uniquement dans des clubs de dance et le second participe aux activités religieuses et se rend au restaurant.    
+Face à cette description, est-ce vrai de croire que `Maxi` et `LaHossou` ont un lien de similarité particulier ? ou encore, existe t-il un lien de dissimilarité entre `Maxi` et `LeCherif` ou entre `LaHossou` et `LeDidier`?  
 La suite du tutoriel essaye de répondre à toutes ces interrogations.
 ```{r echo=FALSE}
 etudiants<-read.table("F:/Blog and Website/codeSources/etudiants.txt",header = TRUE, sep = "\t")
@@ -60,7 +58,7 @@ etudiants
 ```
 
 ## La structure de regroupement des étudiants
-  Les figures ci-dessous montrent qu'il existe une structure de cooccurrence negative entre les étudiants. La présentation du concept des `null models` est faite dans un autre [tutoriel](lien).  
+  Les figures ci-dessous montrent qu'il existe une structure de cooccurrence négative entre les étudiants. La présentation du concept des `null models` est faite dans un autre [tutoriel (en cours de rédaction)](lien). Néanmoins, notons que ce graphique présente la distribution de quatre indicateurs : l'indice de la matrice de température, l'indice N0, l'indice NODF et l'indice Cscore. Les deux premiers indicateurs permettent de mesurer une structure de niche dans la communauté étudié alors que les deux derniers permettent de mesurer une structure de cooccurrence des espèces ou des individus de la communauté. Le trait rouge matérialise la valeur de l'indicateur calculé sur la communauté observée alors que l'histogramme illustre la distribution des incicateurs calculés sur les communautés simulées.  
   L'idée des `null models` est de comparer le hasard à ce qui est observée. Si le jeu de données observé ressemble aux jeux de données obtenus dans une situation de hasard alors on dira qu'il n'existe aucune structure de regroupement dans la communauté. Sinon, il existe une structure particulière qu'il faut analyser. Cette notion est très utilisée en biologie, plus particulièrement en écologie.  
   Pour faire le parallèle avec notre exemple, les étudiants sont similaires aux espèces et les activités sont similaires aux sites.
 

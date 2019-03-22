@@ -1,20 +1,19 @@
 ---
+title: "Construire un graphe interactif avec R"
 author: "Sergio Ewane Ebouele"
-archives: "2018"
+date: "`r Sys.time()`"
+categories: Statistics
+draft: no
+image: img/portfolio/graphe.PNG
 linktitle: GRAPHES INTERACTIFS AVEC R
 next: /tutorials/github-pages-blog
 prev: /tutorials/automated-deployments
-title: 'Construire un graphe interactif avec R'
-date: "`r Sys.time()`"
-weight: 10
-categories:
-  - Statistics
+showonlyimage: no
 tags:
-  - graphinterac
-  - null_models_avec_r
-showonlyimage : false
-draft : false
-image : "img/portfolio/graphe.PNG"
+- graphinterac
+- null_models_avec_r
+archives: '2018'
+weight: 10
 ---
 
 # LES PACKAGES R UTILISÉS DANS LE TUTORIEL
@@ -36,7 +35,7 @@ library(networkD3) # POUR CONSTRUIRE LES RESEAUX INTERACTIFS
 # DÉFINITION DE GRAPHES
   D'après l'encyclopédie en ligne Wikipédia, La théorie des graphes est la discipline mathématique et informatique qui étudie les graphes.  
   Un graphe est un modèle abstrait de dessins de réseaux reliant des objets. Ce modèle est constitué par la donnée de points, appelés `nœuds` ou sommets (en référence aux polyèdres), et de `liens` entre ces points. ces liens sont souvent symétriques (les graphes sont alors dits non orientés) et sont appelés des arêtes. L'image ci-dessous illutre la définition d'un graphe non orienté.  
-![Exemple de graphe non orienté](/post/graphinterac_files/graphill.png)
+
 
   Ce tutoriel ne revient pas sur la théorie des graphes. Il illustre simplement la construction des graphes non orientés et interactif avec `R`.
 

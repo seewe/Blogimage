@@ -49,19 +49,15 @@ Spt
 
 
 ## Les lignes
+
 De manière simple, une ligne est une sucession de points séparés les uns des autre d'une très faible distance. De ce fait, pour avoir une ligne, il faut convertir une série de points en objets spatial. Comme pour les points, les données de la ligne doivent être stockées dans un Data Frame. Le code ci-dessous  illustre la transformation d'un ensembles de points en un objet spatial line.  
-```{r}
-Slin<-Line(locali)
-Slin<-Lines(Slin)
-Slin<-SpatialLines(Slin)
-```
 
 
 
 
 # REFÉRENCE
 
-https://qcbs.ca/wiki/_media/gisonr.pdf
+
 
 
 

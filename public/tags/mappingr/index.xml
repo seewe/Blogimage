@@ -6,7 +6,7 @@
     <description>Recent content in Mappingr on See We in R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Dec 2018 17:25:49 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 Mar 2019 00:22:27 +0000</lastBuildDate>
     
 	<atom:link href="/tags/mappingr/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,11 @@
     <item>
       <title>Les cartes interactives avec R</title>
       <link>/post/mappingr/</link>
-      <pubDate>Wed, 26 Dec 2018 17:25:49 +0000</pubDate>
+      <pubDate>Sat, 23 Mar 2019 00:22:27 +0000</pubDate>
       
       <guid>/post/mappingr/</guid>
-      <description></description>
+      <description>INTRODUCTIONIl est souvent très interessant de représenter des données selon le point du globe où elles ont été collectées. Ce besoin se fait ressentir lorsqu’on analyse des données spatiale. Dans ce tutoriel, nous allons parler des données spatiales. L’objectif est de donner au lecteur les premiers éléments de compréhension de la structure de données spatiale dans R et leur traitement.
+library(sp)locali&amp;lt;-data.frame(X=c(2,5,9.1,8,7,2.01,9.5,0.025), Y=c(0.2,1.654,7.1,3,7,2.50,9.5,0.325))locali## X Y## 1 2.</description>
     </item>
     
   </channel>

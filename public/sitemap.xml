@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/graphinterac/</loc>
+    <lastmod>2019-03-23T00:16:54+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/null_models_avec_r/</loc>
     <lastmod>2019-01-08T10:24:47+00:00</lastmod>
   </url>
@@ -48,13 +53,13 @@
   </url>
   
   <url>
-    <loc>/post/graphinterac/</loc>
-    <lastmod>2018-12-26T17:27:31+00:00</lastmod>
+    <loc>/post/balancedsamplingr/</loc>
+    <lastmod>2018-12-26T17:26:02+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/balancedsamplingr/</loc>
-    <lastmod>2018-12-26T17:26:02+00:00</lastmod>
+    <loc>/post/mappingr/</loc>
+    <lastmod>2019-03-23T00:22:27+00:00</lastmod>
   </url>
   
   <url>
@@ -65,11 +70,6 @@
   <url>
     <loc>/contact/</loc>
     <lastmod>2018-12-29T03:56:47+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/mappingr/</loc>
-    <lastmod>2018-12-26T17:25:49+00:00</lastmod>
   </url>
   
   <url>
@@ -85,7 +85,7 @@
   
   <url>
     <loc>/tags/graphinterac/</loc>
-    <lastmod>2019-01-08T10:24:47+00:00</lastmod>
+    <lastmod>2019-03-23T00:16:54+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -103,13 +103,13 @@
   
   <url>
     <loc>/tags/mappingr/</loc>
-    <lastmod>2018-12-26T17:25:49+00:00</lastmod>
+    <lastmod>2019-03-23T00:22:27+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/null_models_avec_r/</loc>
-    <lastmod>2019-01-08T10:24:47+00:00</lastmod>
+    <lastmod>2019-03-23T00:16:54+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -121,7 +121,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2019-01-08T10:24:47+00:00</lastmod>
+    <lastmod>2019-03-23T00:16:54+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -139,7 +139,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-01-08T10:24:47+00:00</lastmod>
+    <lastmod>2019-03-23T00:16:54+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -157,7 +157,7 @@
   
   <url>
     <loc>/categories/statistics/</loc>
-    <lastmod>2019-01-08T10:24:47+00:00</lastmod>
+    <lastmod>2019-03-23T00:16:54+00:00</lastmod>
     <priority>0</priority>
   </url>
   

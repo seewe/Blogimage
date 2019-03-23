@@ -6,7 +6,7 @@
     <description>Recent content in Statistics on See We in R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Mar 2019 00:16:54 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 Mar 2019 01:26:17 +0000</lastBuildDate>
     
 	<atom:link href="/categories/statistics/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,19 @@
     <item>
       <title>Construire un graphe interactif avec R</title>
       <link>/post/graphinterac/</link>
-      <pubDate>Sat, 23 Mar 2019 00:16:54 +0000</pubDate>
+      <pubDate>Sat, 23 Mar 2019 01:26:17 +0000</pubDate>
       
       <guid>/post/graphinterac/</guid>
       <description>LES PACKAGES R UTILISÉS DANS LE TUTORIELlibrary(dplyr) # POUR MANIPULER LES JEUX DE DONNÉESlibrary(vegan) # POUR FAIRE LES NULL MODELSlibrary(parallel) # POUR LES CALCULS EN PARALÈLESlibrary(igraph) # POUR CONSTRUIRE LES RESEAUX NON INTERACTIFSlibrary(rgl) # POUR LES REPRÉSENTATIONS EN 3Dlibrary(networkD3) # POUR CONSTRUIRE LES RESEAUX INTERACTIFSINTRODUCTIONLa représentation graphique des données reste un moyen important pour l’exploration de l’information contenue dans les jeux de données.</description>
+    </item>
+    
+    <item>
+      <title>TRACKER DES COLLIERS AVEC R</title>
+      <link>/post/collartracking_avec_r/</link>
+      <pubDate>Sat, 23 Mar 2019 01:12:29 +0000</pubDate>
+      
+      <guid>/post/collartracking_avec_r/</guid>
+      <description>INTRODUCTIONINFORMATIONS UTILISÉESCRÉER LE DATAFRAME A REPRÉSENTERCRÉER LA MATRICE DE COULEURREPRÉSENTER GRAPHIQUEMENT LA MATRICE SUR UNE TABLELIEN VERS LA SHINY APPGUIDE D’UTILISATION DE COLLAR TRACKING</description>
     </item>
     
     <item>

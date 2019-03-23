@@ -11,7 +11,7 @@ categories:
   - Sampling
 tags:
   - balancedsamplingr
-showonlyimage : false
+showonlyimage : true
 draft : false
 image : "img/portfolio/bsampling.JPG"
 ---

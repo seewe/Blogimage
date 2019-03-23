@@ -8,7 +8,7 @@ categories:
 tags:
   - mappingr
   - graphinterac
-showonlyimage : false
+showonlyimage : true
 draft : false
 image : "img/portfolio/mapping.PNG"
 ---

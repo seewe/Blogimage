@@ -1,0 +1,58 @@
+---
+title: "TRACKER DES COLLIERS AVEC R"
+author: "Sergio Ewane Ebouele"
+date: "`r Sys.time()`"
+next: /tutorials/github-pages-blog
+linktitle: TRACKER DES COLLIERS AVEC R
+prev: /tutorials/automated-deployments
+archives: '2019'
+weight: 10
+categories:
+  - Statistics
+tags:
+  - dataframe
+  - plotrix
+showonlyimage : true
+draft : true
+image : "img/portfolio/collar.PNG"
+---
+
+
+# INTRODUCTION
+
+
+
+
+# INFORMATIONS UTILISÉES
+
+
+
+
+
+# CRÉER LE DATAFRAME A REPRÉSENTER
+
+
+
+
+# CRÉER LA MATRICE DE COULEUR
+
+
+
+
+# REPRÉSENTER GRAPHIQUEMENT LA MATRICE SUR UNE TABLE
+
+
+
+
+
+# LIEN VERS LA SHINY APP
+
+
+
+
+# GUIDE D'UTILISATION DE `COLLAR TRACKING`
+
+
+
+
+

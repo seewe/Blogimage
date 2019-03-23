@@ -11,7 +11,7 @@ categories:
   - Sampling
 tags:
   - smalareaestim
-showonlyimage : false
+showonlyimage : true
 draft : false
 image : "img/portfolio/sae.PNG"
 ---

@@ -6,18 +6,45 @@
     <description>Recent content on See We in R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Mar 2019 00:16:54 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 Mar 2019 01:26:41 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Estimation dans les petits domaines avec R</title>
+      <link>/post/smallareaestim/</link>
+      <pubDate>Sat, 23 Mar 2019 01:26:41 +0000</pubDate>
+      
+      <guid>/post/smallareaestim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Construire un graphe interactif avec R</title>
       <link>/post/graphinterac/</link>
-      <pubDate>Sat, 23 Mar 2019 00:16:54 +0000</pubDate>
+      <pubDate>Sat, 23 Mar 2019 01:26:17 +0000</pubDate>
       
       <guid>/post/graphinterac/</guid>
       <description>LES PACKAGES R UTILISÉS DANS LE TUTORIELlibrary(dplyr) # POUR MANIPULER LES JEUX DE DONNÉESlibrary(vegan) # POUR FAIRE LES NULL MODELSlibrary(parallel) # POUR LES CALCULS EN PARALÈLESlibrary(igraph) # POUR CONSTRUIRE LES RESEAUX NON INTERACTIFSlibrary(rgl) # POUR LES REPRÉSENTATIONS EN 3Dlibrary(networkD3) # POUR CONSTRUIRE LES RESEAUX INTERACTIFSINTRODUCTIONLa représentation graphique des données reste un moyen important pour l’exploration de l’information contenue dans les jeux de données.</description>
+    </item>
+    
+    <item>
+      <title>Echantillonnage balancé avec R</title>
+      <link>/post/balancedsamplingr/</link>
+      <pubDate>Sat, 23 Mar 2019 01:25:41 +0000</pubDate>
+      
+      <guid>/post/balancedsamplingr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TRACKER DES COLLIERS AVEC R</title>
+      <link>/post/collartracking_avec_r/</link>
+      <pubDate>Sat, 23 Mar 2019 01:12:29 +0000</pubDate>
+      
+      <guid>/post/collartracking_avec_r/</guid>
+      <description>INTRODUCTIONINFORMATIONS UTILISÉESCRÉER LE DATAFRAME A REPRÉSENTERCRÉER LA MATRICE DE COULEURREPRÉSENTER GRAPHIQUEMENT LA MATRICE SUR UNE TABLELIEN VERS LA SHINY APPGUIDE D’UTILISATION DE COLLAR TRACKING</description>
     </item>
     
     <item>
@@ -45,15 +72,6 @@ Les tests statistiques sont l’un des outils les plus utilisés dans le domaine
       <pubDate>Sat, 29 Dec 2018 03:17:17 +0000</pubDate>
       
       <guid>/outilsr/gadm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Estimation dans les petits domaines avec R</title>
-      <link>/post/smallareaestim/</link>
-      <pubDate>Fri, 28 Dec 2018 00:57:44 +0000</pubDate>
-      
-      <guid>/post/smallareaestim/</guid>
       <description></description>
     </item>
     
@@ -103,18 +121,9 @@ Les tests statistiques sont l’un des outils les plus utilisés dans le domaine
     </item>
     
     <item>
-      <title>Echantillonnage balancé avec R</title>
-      <link>/post/balancedsamplingr/</link>
-      <pubDate>Wed, 26 Dec 2018 17:26:02 +0000</pubDate>
-      
-      <guid>/post/balancedsamplingr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Les cartes interactives avec R</title>
       <link>/post/mappingr/</link>
-      <pubDate>Sat, 23 Mar 2019 00:22:27 +0000</pubDate>
+      <pubDate>Sat, 23 Mar 2019 01:32:18 +0000</pubDate>
       
       <guid>/post/mappingr/</guid>
       <description>INTRODUCTIONIl est souvent très interessant de représenter des données selon le point du globe où elles ont été collectées. Ce besoin se fait ressentir lorsqu’on analyse des données spatiale. Dans ce tutoriel, nous allons parler des données spatiales. L’objectif est de donner au lecteur les premiers éléments de compréhension de la structure de données spatiale dans R et leur traitement.

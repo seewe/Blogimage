@@ -6,7 +6,7 @@
     <description>Recent content in Tags on See We in R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Dec 2018 17:26:02 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 Mar 2019 01:25:41 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,16 +14,25 @@
     <item>
       <title>Balancedsamplingr</title>
       <link>/tags/balancedsamplingr/</link>
-      <pubDate>Wed, 26 Dec 2018 17:26:02 +0000</pubDate>
+      <pubDate>Sat, 23 Mar 2019 01:25:41 +0000</pubDate>
       
       <guid>/tags/balancedsamplingr/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Dataframe</title>
+      <link>/tags/dataframe/</link>
+      <pubDate>Sat, 23 Mar 2019 01:12:29 +0000</pubDate>
+      
+      <guid>/tags/dataframe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Graphinterac</title>
       <link>/tags/graphinterac/</link>
-      <pubDate>Sat, 23 Mar 2019 00:16:54 +0000</pubDate>
+      <pubDate>Sat, 23 Mar 2019 01:26:17 +0000</pubDate>
       
       <guid>/tags/graphinterac/</guid>
       <description></description>
@@ -41,7 +50,7 @@
     <item>
       <title>Mappingr</title>
       <link>/tags/mappingr/</link>
-      <pubDate>Sat, 23 Mar 2019 00:22:27 +0000</pubDate>
+      <pubDate>Sat, 23 Mar 2019 01:32:18 +0000</pubDate>
       
       <guid>/tags/mappingr/</guid>
       <description></description>
@@ -50,9 +59,18 @@
     <item>
       <title>Null_models_avec_r</title>
       <link>/tags/null_models_avec_r/</link>
-      <pubDate>Sat, 23 Mar 2019 00:16:54 +0000</pubDate>
+      <pubDate>Sat, 23 Mar 2019 01:26:17 +0000</pubDate>
       
       <guid>/tags/null_models_avec_r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plotrix</title>
+      <link>/tags/plotrix/</link>
+      <pubDate>Sat, 23 Mar 2019 01:12:29 +0000</pubDate>
+      
+      <guid>/tags/plotrix/</guid>
       <description></description>
     </item>
     
@@ -68,7 +86,7 @@
     <item>
       <title>Smalareaestim</title>
       <link>/tags/smalareaestim/</link>
-      <pubDate>Fri, 28 Dec 2018 00:57:44 +0000</pubDate>
+      <pubDate>Sat, 23 Mar 2019 01:26:41 +0000</pubDate>
       
       <guid>/tags/smalareaestim/</guid>
       <description></description>

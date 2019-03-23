@@ -8,7 +8,7 @@ image: img/portfolio/graphe.PNG
 linktitle: GRAPHES INTERACTIFS AVEC R
 next: /tutorials/github-pages-blog
 prev: /tutorials/automated-deployments
-showonlyimage: no
+showonlyimage: true
 tags:
 - graphinterac
 - null_models_avec_r

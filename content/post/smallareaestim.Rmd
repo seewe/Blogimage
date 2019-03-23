@@ -12,7 +12,7 @@ categories:
 tags:
   - smalareaestim
 showonlyimage : true
-draft : false
+draft : true
 image : "img/portfolio/sae.PNG"
 ---
 

@@ -9,7 +9,7 @@ tags:
   - mappingr
   - graphinterac
 showonlyimage : true
-draft : false
+draft : true
 image : "img/portfolio/mapping.PNG"
 ---
 

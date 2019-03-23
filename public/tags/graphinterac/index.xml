@@ -33,7 +33,7 @@ Les tests statistiques sont l’un des outils les plus utilisés dans le domaine
     <item>
       <title>Les cartes interactives avec R</title>
       <link>/post/mappingr/</link>
-      <pubDate>Sat, 23 Mar 2019 01:32:18 +0000</pubDate>
+      <pubDate>Sat, 23 Mar 2019 01:35:56 +0000</pubDate>
       
       <guid>/post/mappingr/</guid>
       <description>INTRODUCTIONIl est souvent très interessant de représenter des données selon le point du globe où elles ont été collectées. Ce besoin se fait ressentir lorsqu’on analyse des données spatiale. Dans ce tutoriel, nous allons parler des données spatiales. L’objectif est de donner au lecteur les premiers éléments de compréhension de la structure de données spatiale dans R et leur traitement.

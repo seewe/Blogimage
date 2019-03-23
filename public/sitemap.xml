@@ -4,7 +4,12 @@
   
   <url>
     <loc>/post/smallareaestim/</loc>
-    <lastmod>2019-03-23T01:26:41+00:00</lastmod>
+    <lastmod>2019-03-23T01:36:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/outilsr/github/</loc>
+    <lastmod>2019-03-23T01:36:28+00:00</lastmod>
   </url>
   
   <url>
@@ -25,11 +30,6 @@
   <url>
     <loc>/post/null_models_avec_r/</loc>
     <lastmod>2019-01-08T10:24:47+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/outilsr/github/</loc>
-    <lastmod>2018-12-31T19:20:42+00:00</lastmod>
   </url>
   
   <url>
@@ -64,7 +64,7 @@
   
   <url>
     <loc>/post/mappingr/</loc>
-    <lastmod>2019-03-23T01:32:18+00:00</lastmod>
+    <lastmod>2019-03-23T01:35:56+00:00</lastmod>
   </url>
   
   <url>
@@ -114,7 +114,7 @@
   
   <url>
     <loc>/tags/mappingr/</loc>
-    <lastmod>2019-03-23T01:32:18+00:00</lastmod>
+    <lastmod>2019-03-23T01:35:56+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -126,7 +126,7 @@
   
   <url>
     <loc>/outilsr/</loc>
-    <lastmod>2018-12-31T19:20:42+00:00</lastmod>
+    <lastmod>2019-03-23T01:36:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -138,37 +138,37 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2019-03-23T01:26:41+00:00</lastmod>
+    <lastmod>2019-03-23T01:36:39+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/r/</loc>
-    <lastmod>2018-12-31T19:20:42+00:00</lastmod>
+    <lastmod>2019-03-23T01:36:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/sampling/</loc>
-    <lastmod>2019-03-23T01:26:41+00:00</lastmod>
+    <lastmod>2019-03-23T01:36:39+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-03-23T01:26:41+00:00</lastmod>
+    <lastmod>2019-03-23T01:36:39+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/smalareaestim/</loc>
-    <lastmod>2019-03-23T01:26:41+00:00</lastmod>
+    <lastmod>2019-03-23T01:36:39+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/software/</loc>
-    <lastmod>2018-12-31T19:20:42+00:00</lastmod>
+    <lastmod>2019-03-23T01:36:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -6,7 +6,7 @@
     <description>Recent content in Graphinterac on See We in R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Apr 2019 23:10:20 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Apr 2019 23:17:33 +0000</lastBuildDate>
     
 	<atom:link href="/tags/graphinterac/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,30 +14,30 @@
     <item>
       <title>Null models</title>
       <link>/post/null_models_avec_r/</link>
-      <pubDate>Mon, 08 Apr 2019 23:10:20 +0000</pubDate>
+      <pubDate>Mon, 08 Apr 2019 23:17:33 +0000</pubDate>
       
       <guid>/post/null_models_avec_r/</guid>
-      <description>UNE ILLUSTRATIONAller à cette page pour voir l’exemple illustrée sur l’image ci-dessous.
+      <description>UNE ILLUSTRATIONAller à cette page pour voir l’exemple illustré sur l’image ci-dessous.
 PACKAGES UTILISÉSlibrary(vegan) # permet de simuler les nulls models a partir d&amp;#39;une MpaINTRODUCTIONÀ partir des données d’un échantillon, le statisticien a pour ambition de décrire un phénomène particulier dans la population. L’inférence statistique est cette magie que le statisticien opère à partir d’une partie de la population pour dire avec une certain confiance ce qui se passe dans la population.</description>
     </item>
     
     <item>
       <title>Construire un graphe interactif avec R</title>
       <link>/post/graphinterac/</link>
-      <pubDate>Mon, 08 Apr 2019 23:10:16 +0000</pubDate>
+      <pubDate>Mon, 08 Apr 2019 23:17:09 +0000</pubDate>
       
       <guid>/post/graphinterac/</guid>
-      <description>ILLUSTRATIONAller à cette page pour voir l’exemple illustrée sur l’image ci-dessous.
+      <description>ILLUSTRATIONAller à cette page pour voir l’exemple illustré sur l’image ci-dessous.
 LES PACKAGES R UTILISÉS DANS LE TUTORIELlibrary(dplyr) # POUR MANIPULER LES JEUX DE DONNÉESlibrary(vegan) # POUR FAIRE LES NULL MODELSlibrary(parallel) # POUR LES CALCULS EN PARALÈLESlibrary(igraph) # POUR CONSTRUIRE LES RESEAUX NON INTERACTIFSlibrary(rgl) # POUR LES REPRÉSENTATIONS EN 3Dlibrary(networkD3) # POUR CONSTRUIRE LES RESEAUX INTERACTIFSINTRODUCTIONLa représentation graphique des données reste un moyen important pour l’exploration de l’information contenue dans les jeux de données.</description>
     </item>
     
     <item>
       <title>Les cartes interactives avec R</title>
       <link>/post/mappingr/</link>
-      <pubDate>Mon, 08 Apr 2019 23:10:17 +0000</pubDate>
+      <pubDate>Mon, 08 Apr 2019 23:17:23 +0000</pubDate>
       
       <guid>/post/mappingr/</guid>
-      <description>UNE ILLUSTRATIONAller à cette page pour voir l’exemple illustrée sur l’image ci-dessous.
+      <description>UNE ILLUSTRATIONAller à cette page pour voir l’exemple illustré sur l’image ci-dessous.
 INTRODUCTIONIl est souvent très interessant de représenter des données selon le point du globe où elles ont été collectées. Ce besoin se fait ressentir lorsqu’on analyse des données spatiale. Dans ce tutoriel, nous allons parler des données spatiales. L’objectif est de donner au lecteur les premiers éléments de compréhension de la structure de données spatiale dans R et leur traitement.</description>
     </item>
     

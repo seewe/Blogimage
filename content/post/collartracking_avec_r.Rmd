@@ -21,7 +21,7 @@ image : "img/portfolio/collar.PNG"
 
 # INTRODUCTION
 
-Aller à cette [page](https://seeweinr.shinyapps.io/collarTrack/) pour voir l'exemple illustrée sur l'image ci-dessous.
+Aller à cette [page](https://seeweinr.shinyapps.io/collarTrack/) pour voir l'exemple illustré sur l'image ci-dessous.
 ![](/img/collar.png)
 
 

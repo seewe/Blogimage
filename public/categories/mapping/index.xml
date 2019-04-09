@@ -23,10 +23,10 @@
     <item>
       <title>Les cartes interactives avec R</title>
       <link>/post/mappingr/</link>
-      <pubDate>Mon, 08 Apr 2019 23:10:17 +0000</pubDate>
+      <pubDate>Mon, 08 Apr 2019 23:17:23 +0000</pubDate>
       
       <guid>/post/mappingr/</guid>
-      <description>UNE ILLUSTRATIONAller à cette page pour voir l’exemple illustrée sur l’image ci-dessous.
+      <description>UNE ILLUSTRATIONAller à cette page pour voir l’exemple illustré sur l’image ci-dessous.
 INTRODUCTIONIl est souvent très interessant de représenter des données selon le point du globe où elles ont été collectées. Ce besoin se fait ressentir lorsqu’on analyse des données spatiale. Dans ce tutoriel, nous allons parler des données spatiales. L’objectif est de donner au lecteur les premiers éléments de compréhension de la structure de données spatiale dans R et leur traitement.</description>
     </item>
     

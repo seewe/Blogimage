@@ -6,7 +6,7 @@
     <description>Recent content in Plotrix on See We in R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Apr 2019 22:28:22 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Apr 2019 23:17:11 +0000</lastBuildDate>
     
 	<atom:link href="/tags/plotrix/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,11 +14,11 @@
     <item>
       <title>TRACKER DES COLLIERS AVEC R</title>
       <link>/post/collartracking_avec_r/</link>
-      <pubDate>Mon, 08 Apr 2019 22:28:22 +0000</pubDate>
+      <pubDate>Mon, 08 Apr 2019 23:17:11 +0000</pubDate>
       
       <guid>/post/collartracking_avec_r/</guid>
       <description>(Le texte sera ajouté très prochainement)
-INTRODUCTIONAller à cette page pour voir l’exemple illustrée sur l’image ci-dessous. INFORMATIONS UTILISÉESCRÉER LE DATAFRAME A REPRÉSENTERCRÉER LA MATRICE DE COULEURREPRÉSENTER GRAPHIQUEMENT LA MATRICE SUR UNE TABLELIEN VERS LA SHINY APPGUIDE D’UTILISATION DE COLLAR TRACKING</description>
+INTRODUCTIONAller à cette page pour voir l’exemple illustré sur l’image ci-dessous. INFORMATIONS UTILISÉESCRÉER LE DATAFRAME A REPRÉSENTERCRÉER LA MATRICE DE COULEURREPRÉSENTER GRAPHIQUEMENT LA MATRICE SUR UNE TABLELIEN VERS LA SHINY APPGUIDE D’UTILISATION DE COLLAR TRACKING</description>
     </item>
     
   </channel>

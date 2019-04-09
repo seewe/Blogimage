@@ -17,7 +17,7 @@ weight: 10
 ---
 
 # ILLUSTRATION  
-Aller à cette [page](https://seeweinr.shinyapps.io/speciesCooccure/) pour voir l'exemple illustrée sur l'image ci-dessous.  
+Aller à cette [page](https://seeweinr.shinyapps.io/speciesCooccure/) pour voir l'exemple illustré sur l'image ci-dessous.  
 ![](/img/network.png)
 
 # LES PACKAGES R UTILISÉS DANS LE TUTORIEL

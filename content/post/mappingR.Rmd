@@ -14,7 +14,7 @@ image : "img/portfolio/mapping.PNG"
 ---
 
 # UNE ILLUSTRATION  
-Aller à cette [page](https://seeweinr.shinyapps.io/mappingR/) pour voir l'exemple illustrée sur l'image ci-dessous.  
+Aller à cette [page](https://seeweinr.shinyapps.io/mappingR/) pour voir l'exemple illustré sur l'image ci-dessous.  
 ![](/img/mapping.png)
 
 # INTRODUCTION

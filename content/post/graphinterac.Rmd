@@ -16,6 +16,10 @@ archives: '2018'
 weight: 10
 ---
 
+# ILLUSTRATION  
+Aller à cette [page](https://seeweinr.shinyapps.io/speciesCooccure/) pour voir l'exemple illustrée sur l'image ci-dessous.  
+![](/img/network.png)
+
 # LES PACKAGES R UTILISÉS DANS LE TUTORIEL
 ```{r eval=FALSE}
 library(dplyr)     # POUR MANIPULER LES JEUX DE DONNÉES
@@ -51,10 +55,11 @@ Pour cet exemple, les étudiants fréquentent plus les `restaurants` pendant leu
 Face à cette description, est-ce vrai de croire que `Maxi` et `LaHossou` ont un lien de similarité particulier ? ou encore, existe t-il un lien de dissimilarité entre `Maxi` et `LeCherif` ou entre `LaHossou` et `LeDidier`?  
 La suite du tutoriel essaye de répondre à toutes ces interrogations.
 ```{r echo=FALSE}
-etudiants<-read.table("F:/Blog and Website/codeSources/etudiants.txt",header = TRUE, sep = "\t")
+etudiants<-read.table("R:/Blog and Website/codeSources/etudiants.txt",header = TRUE, sep = "\t")
 Mpa.etud<-as.matrix(etudiants[,-c(2,1)])  ;   row.names(Mpa.etud)<-etudiants[,1]
 etudiants
 ```
+
 
 ## La structure de regroupement des étudiants
   Les figures ci-dessous montrent qu'il existe une structure de cooccurrence négative entre les étudiants. La présentation du concept des `null models` est faite dans un autre [tutoriel (en cours de rédaction)](lien). Néanmoins, notons que ce graphique présente la distribution de quatre indicateurs : l'indice de la matrice de température, l'indice N0, l'indice NODF et l'indice Cscore. Les deux premiers indicateurs permettent de mesurer une structure de niche dans la communauté étudié alors que les deux derniers permettent de mesurer une structure de cooccurrence des espèces ou des individus de la communauté. Le trait rouge matérialise la valeur de l'indicateur calculé sur la communauté observée alors que l'histogramme illustre la distribution des incicateurs calculés sur les communautés simulées.  
@@ -63,7 +68,7 @@ etudiants
 
 ```{r echo=FALSE, fig.width=13, message=FALSE, warning=FALSE}
 # Chargement des codes sources
-source("F:/Blog and Website/codeSources/fonctionsProjet.R") 
+source("R:/Blog and Website/codeSources/fonctionsProjet.R") 
 
 # Indicateurs de regroupement observés
 OBS.etud<-ObserIndicators(Mpa.etud)

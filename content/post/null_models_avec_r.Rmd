@@ -19,7 +19,7 @@ image : "img/portfolio/nullmodel.PNG"
 
 
 # UNE ILLUSTRATION
-Aller à cette [page](https://seeweinr.shinyapps.io/speciesCooccure/) pour voir l'exemple ci-dessous.   
+Aller à cette [page](https://seeweinr.shinyapps.io/speciesCooccure/) pour voir l'exemple illustrée sur l'image ci-dessous.  
 ![](/img/nullmod.png)
 
 # PACKAGES UTILISÉS

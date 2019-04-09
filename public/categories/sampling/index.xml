@@ -6,7 +6,7 @@
     <description>Recent content in Sampling on See We in R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Mar 2019 01:36:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Apr 2019 22:01:17 +0000</lastBuildDate>
     
 	<atom:link href="/categories/sampling/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,19 +14,19 @@
     <item>
       <title>Estimation dans les petits domaines avec R</title>
       <link>/post/smallareaestim/</link>
-      <pubDate>Sat, 23 Mar 2019 01:36:39 +0000</pubDate>
+      <pubDate>Mon, 08 Apr 2019 22:01:17 +0000</pubDate>
       
       <guid>/post/smallareaestim/</guid>
-      <description></description>
+      <description>(Le texte sera ajouté très prochainement)</description>
     </item>
     
     <item>
       <title>Echantillonnage balancé avec R</title>
       <link>/post/balancedsamplingr/</link>
-      <pubDate>Sat, 23 Mar 2019 01:25:41 +0000</pubDate>
+      <pubDate>Mon, 08 Apr 2019 22:01:10 +0000</pubDate>
       
       <guid>/post/balancedsamplingr/</guid>
-      <description></description>
+      <description>(Le texte sera ajouté très prochainement)</description>
     </item>
     
   </channel>

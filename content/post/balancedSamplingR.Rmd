@@ -16,4 +16,4 @@ draft : false
 image : "img/portfolio/bsampling.JPG"
 ---
 
-
+(Le texte sera ajouté très prochainement)

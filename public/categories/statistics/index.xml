@@ -6,10 +6,30 @@
     <description>Recent content in Statistics on See We in R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Mar 2019 01:26:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Apr 2019 22:17:23 +0000</lastBuildDate>
     
 	<atom:link href="/categories/statistics/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>TRACKER DES COLLIERS AVEC R</title>
+      <link>/post/collartracking_avec_r/</link>
+      <pubDate>Mon, 08 Apr 2019 22:17:23 +0000</pubDate>
+      
+      <guid>/post/collartracking_avec_r/</guid>
+      <description>(Le texte sera ajouté très prochainement)
+INTRODUCTIONAller à cette page pour avoir un aperçu de ce qui sera décrit. INFORMATIONS UTILISÉESCRÉER LE DATAFRAME A REPRÉSENTERCRÉER LA MATRICE DE COULEURREPRÉSENTER GRAPHIQUEMENT LA MATRICE SUR UNE TABLELIEN VERS LA SHINY APPGUIDE D’UTILISATION DE COLLAR TRACKING</description>
+    </item>
+    
+    <item>
+      <title>Null models</title>
+      <link>/post/null_models_avec_r/</link>
+      <pubDate>Mon, 08 Apr 2019 22:12:50 +0000</pubDate>
+      
+      <guid>/post/null_models_avec_r/</guid>
+      <description>UNE ILLUSTRATIONAller à cette page pour voir l’exemple ci-dessous.
+PACKAGES UTILISÉSlibrary(vegan) # permet de simuler les nulls models a partir d&amp;#39;une MpaINTRODUCTIONÀ partir des données d’un échantillon, le statisticien a pour ambition de décrire un phénomène particulier dans la population. L’inférence statistique est cette magie que le statisticien opère à partir d’une partie de la population pour dire avec une certain confiance ce qui se passe dans la population.</description>
+    </item>
     
     <item>
       <title>Construire un graphe interactif avec R</title>
@@ -18,25 +38,6 @@
       
       <guid>/post/graphinterac/</guid>
       <description>LES PACKAGES R UTILISÉS DANS LE TUTORIELlibrary(dplyr) # POUR MANIPULER LES JEUX DE DONNÉESlibrary(vegan) # POUR FAIRE LES NULL MODELSlibrary(parallel) # POUR LES CALCULS EN PARALÈLESlibrary(igraph) # POUR CONSTRUIRE LES RESEAUX NON INTERACTIFSlibrary(rgl) # POUR LES REPRÉSENTATIONS EN 3Dlibrary(networkD3) # POUR CONSTRUIRE LES RESEAUX INTERACTIFSINTRODUCTIONLa représentation graphique des données reste un moyen important pour l’exploration de l’information contenue dans les jeux de données.</description>
-    </item>
-    
-    <item>
-      <title>TRACKER DES COLLIERS AVEC R</title>
-      <link>/post/collartracking_avec_r/</link>
-      <pubDate>Sat, 23 Mar 2019 01:12:29 +0000</pubDate>
-      
-      <guid>/post/collartracking_avec_r/</guid>
-      <description>INTRODUCTIONINFORMATIONS UTILISÉESCRÉER LE DATAFRAME A REPRÉSENTERCRÉER LA MATRICE DE COULEURREPRÉSENTER GRAPHIQUEMENT LA MATRICE SUR UNE TABLELIEN VERS LA SHINY APPGUIDE D’UTILISATION DE COLLAR TRACKING</description>
-    </item>
-    
-    <item>
-      <title>Null models</title>
-      <link>/post/null_models_avec_r/</link>
-      <pubDate>Tue, 08 Jan 2019 10:24:47 +0000</pubDate>
-      
-      <guid>/post/null_models_avec_r/</guid>
-      <description>PACKAGES UTILISÉSlibrary(vegan) # permet de simuler les nulls models a partir d&amp;#39;une MpaINTRODUCTIONÀ partir des données d’un échantillon, le statisticien a pour ambition de décrire un phénomène particulier dans la population. L’inférence statistique est cette magie que le statisticien opère à partir d’une partie de la population pour dire avec une certain confiance ce qui se passe dans la population.
-Les tests statistiques sont l’un des outils les plus utilisés dans le domaine de l’inférence.</description>
     </item>
     
   </channel>

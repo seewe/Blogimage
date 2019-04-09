@@ -13,6 +13,10 @@ draft : true
 image : "img/portfolio/mapping.PNG"
 ---
 
+# UNE ILLUSTRATION  
+Aller à cette [page](https://seeweinr.shinyapps.io/mappingR/) pour voir l'exemple ci-dessous.   
+![](/img/mapping.png)
+
 # INTRODUCTION
 
 Il est souvent très interessant de représenter des données selon le point du globe où elles ont été collectées. Ce besoin se fait ressentir lorsqu'on analyse des données spatiale. Dans ce tutoriel, nous allons parler des données spatiales. L'objectif est de donner au lecteur les premiers éléments de compréhension de la structure de données spatiale dans R et leur traitement.

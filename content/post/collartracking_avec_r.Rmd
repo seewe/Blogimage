@@ -17,9 +17,12 @@ draft : true
 image : "img/portfolio/collar.PNG"
 ---
 
+(Le texte sera ajouté très prochainement)
 
 # INTRODUCTION
 
+Aller à cette [page](https://seeweinr.shinyapps.io/collarTrack/) pour avoir un aperçu de ce qui sera décrit.
+![](/img/collar.png)
 
 
 

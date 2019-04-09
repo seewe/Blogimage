@@ -6,18 +6,47 @@
     <description>Recent content in Posts on See We in R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Mar 2019 01:36:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Apr 2019 22:17:23 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>TRACKER DES COLLIERS AVEC R</title>
+      <link>/post/collartracking_avec_r/</link>
+      <pubDate>Mon, 08 Apr 2019 22:17:23 +0000</pubDate>
+      
+      <guid>/post/collartracking_avec_r/</guid>
+      <description>(Le texte sera ajouté très prochainement)
+INTRODUCTIONAller à cette page pour avoir un aperçu de ce qui sera décrit. INFORMATIONS UTILISÉESCRÉER LE DATAFRAME A REPRÉSENTERCRÉER LA MATRICE DE COULEURREPRÉSENTER GRAPHIQUEMENT LA MATRICE SUR UNE TABLELIEN VERS LA SHINY APPGUIDE D’UTILISATION DE COLLAR TRACKING</description>
+    </item>
+    
+    <item>
+      <title>Null models</title>
+      <link>/post/null_models_avec_r/</link>
+      <pubDate>Mon, 08 Apr 2019 22:12:50 +0000</pubDate>
+      
+      <guid>/post/null_models_avec_r/</guid>
+      <description>UNE ILLUSTRATIONAller à cette page pour voir l’exemple ci-dessous.
+PACKAGES UTILISÉSlibrary(vegan) # permet de simuler les nulls models a partir d&amp;#39;une MpaINTRODUCTIONÀ partir des données d’un échantillon, le statisticien a pour ambition de décrire un phénomène particulier dans la population. L’inférence statistique est cette magie que le statisticien opère à partir d’une partie de la population pour dire avec une certain confiance ce qui se passe dans la population.</description>
+    </item>
+    
+    <item>
       <title>Estimation dans les petits domaines avec R</title>
       <link>/post/smallareaestim/</link>
-      <pubDate>Sat, 23 Mar 2019 01:36:39 +0000</pubDate>
+      <pubDate>Mon, 08 Apr 2019 22:01:17 +0000</pubDate>
       
       <guid>/post/smallareaestim/</guid>
-      <description></description>
+      <description>(Le texte sera ajouté très prochainement)</description>
+    </item>
+    
+    <item>
+      <title>Echantillonnage balancé avec R</title>
+      <link>/post/balancedsamplingr/</link>
+      <pubDate>Mon, 08 Apr 2019 22:01:10 +0000</pubDate>
+      
+      <guid>/post/balancedsamplingr/</guid>
+      <description>(Le texte sera ajouté très prochainement)</description>
     </item>
     
     <item>
@@ -30,41 +59,13 @@
     </item>
     
     <item>
-      <title>Echantillonnage balancé avec R</title>
-      <link>/post/balancedsamplingr/</link>
-      <pubDate>Sat, 23 Mar 2019 01:25:41 +0000</pubDate>
-      
-      <guid>/post/balancedsamplingr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>TRACKER DES COLLIERS AVEC R</title>
-      <link>/post/collartracking_avec_r/</link>
-      <pubDate>Sat, 23 Mar 2019 01:12:29 +0000</pubDate>
-      
-      <guid>/post/collartracking_avec_r/</guid>
-      <description>INTRODUCTIONINFORMATIONS UTILISÉESCRÉER LE DATAFRAME A REPRÉSENTERCRÉER LA MATRICE DE COULEURREPRÉSENTER GRAPHIQUEMENT LA MATRICE SUR UNE TABLELIEN VERS LA SHINY APPGUIDE D’UTILISATION DE COLLAR TRACKING</description>
-    </item>
-    
-    <item>
-      <title>Null models</title>
-      <link>/post/null_models_avec_r/</link>
-      <pubDate>Tue, 08 Jan 2019 10:24:47 +0000</pubDate>
-      
-      <guid>/post/null_models_avec_r/</guid>
-      <description>PACKAGES UTILISÉSlibrary(vegan) # permet de simuler les nulls models a partir d&amp;#39;une MpaINTRODUCTIONÀ partir des données d’un échantillon, le statisticien a pour ambition de décrire un phénomène particulier dans la population. L’inférence statistique est cette magie que le statisticien opère à partir d’une partie de la population pour dire avec une certain confiance ce qui se passe dans la population.
-Les tests statistiques sont l’un des outils les plus utilisés dans le domaine de l’inférence.</description>
-    </item>
-    
-    <item>
       <title>Les cartes interactives avec R</title>
       <link>/post/mappingr/</link>
-      <pubDate>Sat, 23 Mar 2019 01:35:56 +0000</pubDate>
+      <pubDate>Mon, 08 Apr 2019 22:13:05 +0000</pubDate>
       
       <guid>/post/mappingr/</guid>
-      <description>INTRODUCTIONIl est souvent très interessant de représenter des données selon le point du globe où elles ont été collectées. Ce besoin se fait ressentir lorsqu’on analyse des données spatiale. Dans ce tutoriel, nous allons parler des données spatiales. L’objectif est de donner au lecteur les premiers éléments de compréhension de la structure de données spatiale dans R et leur traitement.
-library(sp)locali&amp;lt;-data.frame(X=c(2,5,9.1,8,7,2.01,9.5,0.025), Y=c(0.2,1.654,7.1,3,7,2.50,9.5,0.325))locali## X Y## 1 2.</description>
+      <description>UNE ILLUSTRATIONAller à cette page pour voir l’exemple ci-dessous.
+INTRODUCTIONIl est souvent très interessant de représenter des données selon le point du globe où elles ont été collectées. Ce besoin se fait ressentir lorsqu’on analyse des données spatiale. Dans ce tutoriel, nous allons parler des données spatiales. L’objectif est de donner au lecteur les premiers éléments de compréhension de la structure de données spatiale dans R et leur traitement.</description>
     </item>
     
   </channel>

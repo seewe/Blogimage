@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Null_models_avec_r on See We in R</title>
+    <title>null_models_avec_r on See We in R</title>
     <link>/tags/null_models_avec_r/</link>
-    <description>Recent content in Null_models_avec_r on See We in R</description>
+    <description>Recent content in null_models_avec_r on See We in R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Apr 2019 23:17:33 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jan 2020 12:47:38 +0000</lastBuildDate>
     
 	<atom:link href="/tags/null_models_avec_r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Simuler un arbre à partir des distributions statistiques des branches d&#39;un arbre observé</title>
+      <link>/post/treesimulation/</link>
+      <pubDate>Fri, 03 Jan 2020 12:47:38 +0000</pubDate>
+      
+      <guid>/post/treesimulation/</guid>
+      <description>ILLUSTRATIONAller à cette page pour voir l’exemple illustré sur l’image ci-dessous.
+(Le texte sera ajouté très prochainement)
+</description>
+    </item>
     
     <item>
       <title>Null models</title>

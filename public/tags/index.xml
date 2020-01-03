@@ -6,49 +6,31 @@
     <description>Recent content in Tags on See We in R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Apr 2019 22:01:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jan 2020 12:47:38 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Balancedsamplingr</title>
-      <link>/tags/balancedsamplingr/</link>
-      <pubDate>Mon, 08 Apr 2019 22:01:10 +0000</pubDate>
-      
-      <guid>/tags/balancedsamplingr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dataframe</title>
-      <link>/tags/dataframe/</link>
-      <pubDate>Mon, 08 Apr 2019 23:17:11 +0000</pubDate>
-      
-      <guid>/tags/dataframe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Graphinterac</title>
+      <title>graphinterac</title>
       <link>/tags/graphinterac/</link>
-      <pubDate>Mon, 08 Apr 2019 23:17:33 +0000</pubDate>
+      <pubDate>Fri, 03 Jan 2020 12:47:38 +0000</pubDate>
       
       <guid>/tags/graphinterac/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Mapping</title>
-      <link>/tags/mapping/</link>
-      <pubDate>Sat, 29 Dec 2018 03:17:17 +0000</pubDate>
+      <title>null_models_avec_r</title>
+      <link>/tags/null_models_avec_r/</link>
+      <pubDate>Fri, 03 Jan 2020 12:47:38 +0000</pubDate>
       
-      <guid>/tags/mapping/</guid>
+      <guid>/tags/null_models_avec_r/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Mappingr</title>
+      <title>mappingr</title>
       <link>/tags/mappingr/</link>
       <pubDate>Mon, 08 Apr 2019 23:17:23 +0000</pubDate>
       
@@ -57,20 +39,38 @@
     </item>
     
     <item>
-      <title>Null_models_avec_r</title>
-      <link>/tags/null_models_avec_r/</link>
-      <pubDate>Mon, 08 Apr 2019 23:17:33 +0000</pubDate>
+      <title>dataframe</title>
+      <link>/tags/dataframe/</link>
+      <pubDate>Mon, 08 Apr 2019 23:17:11 +0000</pubDate>
       
-      <guid>/tags/null_models_avec_r/</guid>
+      <guid>/tags/dataframe/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Plotrix</title>
+      <title>plotrix</title>
       <link>/tags/plotrix/</link>
       <pubDate>Mon, 08 Apr 2019 23:17:11 +0000</pubDate>
       
       <guid>/tags/plotrix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>smalareaestim</title>
+      <link>/tags/smalareaestim/</link>
+      <pubDate>Mon, 08 Apr 2019 22:01:17 +0000</pubDate>
+      
+      <guid>/tags/smalareaestim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>balancedsamplingr</title>
+      <link>/tags/balancedsamplingr/</link>
+      <pubDate>Mon, 08 Apr 2019 22:01:10 +0000</pubDate>
+      
+      <guid>/tags/balancedsamplingr/</guid>
       <description></description>
     </item>
     
@@ -84,11 +84,11 @@
     </item>
     
     <item>
-      <title>Smalareaestim</title>
-      <link>/tags/smalareaestim/</link>
-      <pubDate>Mon, 08 Apr 2019 22:01:17 +0000</pubDate>
+      <title>mapping</title>
+      <link>/tags/mapping/</link>
+      <pubDate>Sat, 29 Dec 2018 03:17:17 +0000</pubDate>
       
-      <guid>/tags/smalareaestim/</guid>
+      <guid>/tags/mapping/</guid>
       <description></description>
     </item>
     

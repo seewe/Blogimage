@@ -1,0 +1,26 @@
+---
+title: "Simuler un arbre à partir des distributions statistiques des branches d'un arbre observé"
+author: "Sergio Ewane Ebouele"
+date: "`r Sys.time()`"
+categories: Statistics
+draft: no
+image: img/portfolio/tree.jpg
+linktitle: SIMULATION DES ARBRES AVEC R
+next: /tutorials/github-pages-blog
+prev: /tutorials/automated-deployments
+showonlyimage: true
+tags:
+- graphinterac
+- null_models_avec_r
+archives: '2018'
+weight: 10
+---
+
+# ILLUSTRATION  
+Aller à cette [page](https://seeweinr.shinyapps.io/simulaTree/) pour voir l'exemple illustré sur l'image ci-dessous.  
+![](/img/tree.png)
+
+(Le texte sera ajouté très prochainement)
+
+
+

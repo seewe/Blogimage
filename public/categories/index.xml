@@ -6,14 +6,24 @@
     <description>Recent content in Categories on See We in R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 03 Jan 2020 12:47:38 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Mapping</title>
+      <title>Statistics</title>
+      <link>/categories/statistics/</link>
+      <pubDate>Fri, 03 Jan 2020 12:47:38 +0000</pubDate>
+      
+      <guid>/categories/statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mapping</title>
       <link>/categories/mapping/</link>
-      <pubDate>Sat, 29 Dec 2018 03:17:17 +0000</pubDate>
+      <pubDate>Mon, 08 Apr 2019 23:17:23 +0000</pubDate>
       
       <guid>/categories/mapping/</guid>
       <description></description>
@@ -34,15 +44,6 @@
       <pubDate>Sat, 23 Mar 2019 01:36:28 +0000</pubDate>
       
       <guid>/categories/software/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Statistics</title>
-      <link>/categories/statistics/</link>
-      <pubDate>Mon, 08 Apr 2019 23:17:33 +0000</pubDate>
-      
-      <guid>/categories/statistics/</guid>
       <description></description>
     </item>
     
